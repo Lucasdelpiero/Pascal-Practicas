@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ordenarsecu.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="39"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="ordenarsecu.lpr"/>
+        <Caret Line="25" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ordenarsecu.lpr"/>
+        <Caret Line="32" Column="41" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ordenarsecu.lpr"/>
+        <Caret Line="12" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ordenarsecu.lpr"/>
+        <Caret Line="20" TopLine="7"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="project1.lpr"/>
+        <Line Value="53"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

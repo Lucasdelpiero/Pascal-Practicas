@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="cifras.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="9"/>
+        <CursorPos X="43" Y="29"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="25">
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="10" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="3" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="14" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="11" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="9" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="10" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="9" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="10" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="9" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="10" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="9" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="3" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="9" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="18" Column="26" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="16" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="18" Column="7" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="16" Column="22" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="4" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="15" Column="24" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="14" Column="41" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="24" Column="33" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="15" Column="32" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="16" Column="43" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="29" Column="5" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="15" Column="43" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="cifras.lpr"/>
+        <Caret Line="29" Column="22" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

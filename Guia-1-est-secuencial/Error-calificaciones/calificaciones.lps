@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="calificaciones.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="32" Y="4"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="20">
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="5" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="28" Column="12" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="26" Column="65" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="27" Column="9" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="15" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="29" Column="8" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="25" Column="109" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="27" Column="24" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="26" Column="38" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="29" Column="3" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="25" Column="7" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="27" Column="27" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="26" Column="39" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="27" Column="3" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="28" Column="23" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="25" Column="102" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="28" Column="7" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="17" Column="42" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="29" Column="4" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="calificaciones.lpr"/>
+        <Caret Line="35" Column="32" TopLine="17"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="superaanterior.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="52" Y="20"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="18" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="12" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="13" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="17" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="8" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="10" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="11" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="12" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="superaanterior.lpr"/>
+        <Caret Line="15" TopLine="2"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
