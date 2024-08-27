@@ -1,0 +1,19 @@
+Ej 13) Dado el siguiente fragmento de código, analice si se puede reescribir usando la estructura Repeatuntil,
+ comparar ambos códigos. ¿A qué conclusión llega?
+Conclusion: es mejor usar repeat ya que no hay que pedir 2 veces que ingrese informacion
+
+Readln( Tipo, Precio); 
+Tipo := Upcase(Tipo);{P=panadería, F=fiambrería, A=almacén}
+While (Tipo<>’P’) and (Tipo<>’F’) and (Tipo<>’A’) do
+	Begin
+		Readln (Tipo); 
+		Tipo := Upcase(Tipo);
+	End;
+
+// Reescrito
+Repeat
+	Readln( Tipo, Precio); 
+	Tipo := Upcase(Tipo);{P=panadería, F=fiambrería, A=almacén}
+	Readln (Tipo);
+	Tipo := Upcase(Tipo);
+until (Tipo=’P’) or (Tipo=’F’) or (Tipo=’A’)

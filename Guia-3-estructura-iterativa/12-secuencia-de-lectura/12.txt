@@ -1,0 +1,17 @@
+primero
+readln(t, cad2, c, x)
+readln(t, a)
+readln(t, cad1)
+
+segundo
+readln(t, cad3, cad2)
+readln(t, x)
+readln(t, b)
+
+tercero
+readln(t, cad1, cad3, c, a)
+
+cuarto
+readln(t)
+readln(t, cad1)
+readln(t, x)

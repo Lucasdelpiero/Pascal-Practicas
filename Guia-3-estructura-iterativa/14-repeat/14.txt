@@ -1,0 +1,35 @@
+Ej 14) a) Analice y explique brevemente qué realiza el siguiente fragmento de código. Indicar el resultado
+en cada uno de los tres lotes de prueba
+a)
+lote 1: 0 , resultado = 0
+lote 2: 70, 40, 20, resultado = 110
+lote 3: 70,0, resultado = 70
+}
+
+{
+Bool:=false ;
+Sum:=0;
+readln(x);
+If x <>0 then
+	Repeat
+	Sum := Sum + x;
+	If Sum > 100 then
+		Bool :=true;
+		Readln( x );
+	Until ( x=0) or Bool;
+Writeln(‘Resultado’, Sum );
+
+b)
+Bool:=false ;
+Sum:=0;
+readln(x);
+
+while (x <>0) or (bool = true) then
+	begin
+		Sum := Sum + x;
+		If Sum > 100 then
+			Bool :=true;
+		Readln( x );
+	end
+
+Writeln(‘Resultado’, Sum );
