@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="autos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="34"/>
+        <CursorPos X="63" Y="62"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="32" Y="3"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="6">
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="44" Column="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="6" Column="46"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="27" Column="9" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="26" Column="9" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="40" Column="13" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="14" Column="20" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="autos.lpr"/>
+        <Caret Line="13" Column="34" TopLine="2"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
