@@ -9,8 +9,8 @@
         <Filename Value="ventas.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="14"/>
-        <CursorPos Y="28"/>
+        <TopLine Value="64"/>
+        <CursorPos X="69" Y="66"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>

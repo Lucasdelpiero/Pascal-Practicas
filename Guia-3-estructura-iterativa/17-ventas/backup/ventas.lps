@@ -8,27 +8,22 @@
       <Unit>
         <Filename Value="ventas.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="46"/>
-        <CursorPos X="69" Y="66"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="8"/>
+        <CursorPos X="79" Y="19"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="6" Y="26"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ventas.lpr"/>
-        <Caret Line="41" TopLine="29"/>
-      </Position>
       <Position>
         <Filename Value="ventas.lpr"/>
         <Caret Line="36" TopLine="29"/>
@@ -144,6 +139,10 @@
       <Position>
         <Filename Value="ventas.lpr"/>
         <Caret Line="25" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ventas.lpr"/>
+        <Caret Line="6" Column="9"/>
       </Position>
     </JumpHistory>
     <RunParams>
