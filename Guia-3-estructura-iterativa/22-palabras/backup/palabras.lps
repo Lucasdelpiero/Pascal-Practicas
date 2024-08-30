@@ -9,8 +9,8 @@
         <Filename Value="palabras.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="34"/>
-        <CursorPos X="73" Y="45"/>
+        <TopLine Value="97"/>
+        <CursorPos Y="120"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -18,17 +18,13 @@
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="31"/>
+        <CursorPos X="50"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="22" TopLine="8"/>
-      </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
         <Caret Line="24" TopLine="8"/>
@@ -144,6 +140,10 @@
       <Position>
         <Filename Value="palabras.lpr"/>
         <Caret Line="62" Column="28" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="45" Column="73" TopLine="34"/>
       </Position>
     </JumpHistory>
     <RunParams>

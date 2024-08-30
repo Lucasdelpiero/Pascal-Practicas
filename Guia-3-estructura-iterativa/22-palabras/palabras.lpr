@@ -81,25 +81,7 @@ begin
     // c)
     writeln('Hay ', contCapicua, ' palabras capicua');
 
-    //
-    {
-    // b) Dar vuelta palabra
-                        if contLetras > 4 then
-                        begin
-                            for i:= contLetras  downto 1 do
-                                alReves := alReves + palabra[i];
-                            writeln(palabra ,' al reves: ', alReves);
-                        end;
 
-                        // Capicua
-                        for i := 1 to (ContLetras DIV 2) do
-                            begin
-                                if palabra[i] <> palabra[contLetras - i + 1] then
-                                    esCapicua := false;
-                            end;
-                        if esCapicua = true then
-                            contCapicua := contCapicua + 1;
-                            }
     readln();
 end.
 

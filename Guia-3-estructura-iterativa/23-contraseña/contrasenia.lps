@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="contrasenia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="49"/>
+        <CursorPos X="56" Y="60"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="71"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="12">
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="10" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="78"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="26" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="3" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="4" Column="21" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="5" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="49" Column="58" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="41" Column="46" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="43" Column="46" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="11" Column="22" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="82" Column="88" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="52" Column="59" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="82" Column="38" TopLine="63"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

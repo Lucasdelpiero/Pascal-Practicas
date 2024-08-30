@@ -42,7 +42,7 @@ begin
                 if dentroPalabra = true then
                     // Finaliza palabra y hay que evaluarla
                     begin
-                        writeln(palabra);
+                        //writeln(palabra);  // descomentar para testear
                         // b) Dar vuelta palabra
                         if contLetras > 4 then
                         begin
