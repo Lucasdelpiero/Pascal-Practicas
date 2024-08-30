@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="palabras.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="34"/>
+        <CursorPos X="73" Y="45"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="31"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="22" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="24" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="27" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="28" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="29" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="30" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="33" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="20" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="24" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="27" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="28" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="29" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="30" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="31" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="33" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="20" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="24" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="27" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="28" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="29" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="30" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="33" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="20" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="24" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="101" Column="5" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="21" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="62" Column="28" TopLine="45"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

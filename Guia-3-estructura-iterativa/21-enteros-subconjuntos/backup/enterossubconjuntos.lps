@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="16"/>
+        <CursorPos X="63" Y="27"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="33" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="34" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="40" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="17" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="19" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="22" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="25" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="27" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="28" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="29" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="40" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="17" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="19" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="33" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="34" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="35" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="40" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="17" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="19" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="33" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="34" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="40" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="17" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="19" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="enterossubconjuntos.lpr"/>
+        <Caret Line="29" Column="40" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
