@@ -1,113 +1,72 @@
-program cambiarparejas;
+Program CambiarParejas;
     var
-    entrada , salida: text;
-    car, carAnterior : char;
-    palabra : string;
-    i : byte;
-     reemplaza : boolean;
-    num : integer;
+        entrada, salida : text;
+        car1, car2 : char;
+        palabra : string;
+        i, num : byte;
 
 begin
-    carAnterior := '.';
+    car1 := '-';
+    car2 := '-';
     palabra := '';
-    reemplaza := false;
-    assign(entrada ,'datos.txt');
+    assign(entrada, 'datos.txt');
     reset(entrada);
-    assign(salida,'salida.txt');
+    assign(salida, 'salida.txt');
     rewrite(salida);
 
-    read(entrada, car);
-    repeat
-        // Minuscula seguido de algo, puede o no reemplazar la secuencia
-        if carAnterior in ['a'..'z']  then
+    read(entrada, car1);
+    while car2 <> '.' do
+    begin
+        read(entrada, car2);
+
+        // Si hay un espacio antes de empezar la palabra, siempre se escribe
+        if (car1 = ' ') and (car2 <> ' ') then
+            palabra := palabra + car2;
+
+        // Si el car1 es minuscula, puede o no repetirse el numero
+        if car1 in ['a'..'z'] then
+            if car2 in ['0'..'9'] then
             begin
-            if car in ['0'..'9'] then  // Se reemplaza "num" numero de veces
-            begin
-                reemplaza := true;
-                val(car, num);
+                val(car2,num);
                 for i := 1 to num do
-                    palabra := palabra + carAnterior;
+                    palabra := palabra + car1;
             end
-            else // No se reemplaza la misma letra muchas veces
-                begin
-                    reemplaza := false;
-                    palabra := palabra + carAnterior;
-                end
-            end
-        // El primer caracter es mayuscula, imposible que el siguiente caracter se reemplaze
-        else
-            if carAnterior in ['A'..'Z'] then
-                begin
-                    reemplaza := false;
-                    palabra := palabra + carAnterior;
-                end
-        // Es un numero, se escribe dependiendo de si tuvo antes una minuscula o mayuscula
-        else
-            if carAnterior in ['0'..'9'] then
-            begin
-                if reemplaza = false then
-                    palabra := palabra + carAnterior;
+            else
+                palabra := palabra + car1;
 
-            end
-        else
-            if carAnterior = ' ' then
+        // La mayuscula se escribe siempre
+        if (car1 in ['A'..'Z']) then
+            palabra := palabra + car1;
+
+        // El numero se escribe solo si le precede una mayuscula
+        if car2 in ['0'..'9']  then
+            if car1 in ['A'..'Z'] then
+                palabra := palabra + car2; ;
+
+
+        // Termina la palabra y se escribe en pantalla
+        if (car2 = ' ') or (car2 = '.')  then
             begin
-                write(palabra,' ');
-                palabra:= '';
+                //writeln(palabra);   // Descomentar para testear
+                write(salida, palabra);
+                write(salida, car2);
+                palabra := '';
             end;
-       {
-        case carAnterior of
-            'a'..'z':
-                begin
-                    case car of
-                        '0'..'9':
-                        begin
-                            reemplaza := true;
-                            val(car, num);
-                            for i := 1 to num do
-                                palabra := palabra + carAnterior;
 
-                        end
-                        else
-                          begin
-                            reemplaza := false;
-                            palabra := palabra + carAnterior;
-                          end;
+        car1 := car2;
+    end;
 
-
-
-                    end;
-                end;
-            'A'..'Z':
-                begin
-                    reemplaza := false;
-                    palabra := palabra + carAnterior
-                end;
-            '0'..'9':
-                if reemplaza = false then
-                    palabra := palabra + carAnterior;
-            ' ':
-                begin
-                    write(palabra,' ');
-                    palabra:= '';
-                end;
-
-        end;
-        }
-
-
-        carAnterior := car;
-        read(entrada, car);
-    until car = '.';
-
-    // La ultima palabra hay que hacerla manualmente
-    palabra := palabra + carAnterior + '.';
-    write(palabra);
-
+    // Se muestra en pantalla el resultado
+    close(salida);
+    assign(salida, 'salida.txt');
+    reset(salida);
+    read(salida, palabra);
+    writeln('El archivo dice:');
+    writeln(palabra);
+    // Se cierran archivos
     close(entrada);
     close(salida);
     readln();
-
 end.
 
 {

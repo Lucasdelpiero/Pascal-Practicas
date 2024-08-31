@@ -28,10 +28,7 @@
       <Unit>
         <Filename Value="cambiarparejas.lpr"/>
         <IsPartOfProject Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="datos.txt"/>
-        <IsPartOfProject Value="True"/>
+        <UnitName Value="CambiarParejas"/>
       </Unit>
     </Units>
   </ProjectOptions>
