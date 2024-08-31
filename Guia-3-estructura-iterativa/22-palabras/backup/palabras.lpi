@@ -28,6 +28,7 @@
       <Unit>
         <Filename Value="palabras.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="Palabras"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>

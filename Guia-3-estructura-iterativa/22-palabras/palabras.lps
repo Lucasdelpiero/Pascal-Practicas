@@ -8,9 +8,9 @@
       <Unit>
         <Filename Value="palabras.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="Palabras"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="70"/>
-        <CursorPos Y="83"/>
+        <CursorPos X="14" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -27,19 +27,99 @@
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="24" TopLine="8"/>
+        <Caret Line="56" TopLine="47"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="27" TopLine="8"/>
+        <Caret Line="53" TopLine="47"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="28" TopLine="8"/>
+        <Caret Line="55" TopLine="47"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="29" TopLine="9"/>
+        <Caret Line="56" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="53" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="55" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="56" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="53" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="55" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="56" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="53" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="55" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="56" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="53" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="63" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="69" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="19" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="21" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="22" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="23" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="24" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="25" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="26" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="palabras.lpr"/>
+        <Caret Line="27" TopLine="7"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
@@ -47,39 +127,7 @@
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="33" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="20" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="22" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="24" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="27" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="28" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="29" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="30" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="31" TopLine="13"/>
+        <Caret Line="32" TopLine="12"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
@@ -87,63 +135,15 @@
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="20" TopLine="13"/>
+        <Caret Line="34" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="22" TopLine="13"/>
+        <Caret Line="63" TopLine="60"/>
       </Position>
       <Position>
         <Filename Value="palabras.lpr"/>
-        <Caret Line="24" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="27" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="28" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="29" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="30" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="33" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="20" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="22" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="24" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="101" Column="5" TopLine="44"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="21" Column="25"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="62" Column="28" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="palabras.lpr"/>
-        <Caret Line="45" Column="73" TopLine="34"/>
+        <Caret Line="12" Column="13" TopLine="4"/>
       </Position>
     </JumpHistory>
     <RunParams>

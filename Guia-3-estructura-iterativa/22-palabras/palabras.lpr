@@ -1,88 +1,85 @@
-program palabras;
+program Palabras;
     var
         arch : text;
-        dentroPalabra, esCapicua : boolean;
-        palabra, masVocales, alReves : string;
-        contLetras, contVocales, maxVocales, contCapicua, i : byte;
+        palabra, palabraInversa, palabraMasVocales : string;
+        contLetras, contCapicua, contVocales, contMasVocales, i : integer;
         car : char;
+        esCapicua : boolean;
+
+
 
 begin
+    car := ' ';
     contLetras := 0;
-    contVocales := 0;
-    maxVocales := 0;
-    dentroPalabra := false;
-    esCapicua := true;
-    car := 'a';
-    palabra := '';
-    alReves := '';
+    contCapicua := 0;
+    contMasVocales := 0;
+    palabraMasVocales := '';
     assign(arch, 'datos.txt');
     reset(arch);
 
-    while not (car = '.') do
-    begin
+    while car <> '.' do
+        begin
+        contLetras := 0;
+        palabra := '';
+        palabraInversa := '';
+        contVocales := 0;
+        esCapicua := true;
         read(arch, car);
-        // Usar un case evita error de agarrar caracteres bugeados
-        case car of
-            'a'..'z','A'..'Z':
-                begin
-                    dentroPalabra := true;
-                    palabra := palabra + car;
-                    contLetras := contLetras + 1;
-                    case car of
-                        'a','e','i','o','u': contVocales := contVocales + 1;
-                    end;
-                    if contVocales >= maxVocales then
-                    begin
-                        maxVocales := contVocales;
-                        masVocales := palabra;
-                    end;
-
+        if car <> ' ' then // Principio de palabra
+        begin
+        // Lee hasta el final de la palabra
+            while (car <> ' ') and (car <> '.') do
+            begin
+                palabra := palabra + car;
+                contLetras := contLetras + 1;
+                case car of
+                'a','e','i','o','u': contVocales := contVocales + 1;
                 end;
-            ' ','.':
-                if dentroPalabra = true then
-                    // Finaliza palabra y hay que evaluarla
-                    begin
-                        //writeln(palabra);  // descomentar para testear
-                        // b) Dar vuelta palabra
-                        if contLetras > 4 then
-                        begin
-                            for i:= contLetras  downto 1 do
-                                alReves := alReves + palabra[i];
-                            writeln(palabra ,' al reves: ', alReves);
-                        end;
+                read(arch, car);
+            end; // Fin de palabra y de while interno
+            writeln(palabra); // Para testear
+        end; // Fin de palabra y de while externo
 
-                        // Capicua
-                        if contLetras > 1 then
-                        begin
-                            for i := 1 to (ContLetras DIV 2) do
-                            begin
-                                if palabra[i] <> palabra[contLetras - i + 1] then
-                                    esCapicua := false;
-                            end;
-                        end
-                            else
-                              esCapicua := false;
-                        if esCapicua = true then
-                            contCapicua := contCapicua + 1;
+        // Hay que escribirla al reves
+        if contLetras > 4 then
+        begin
+            for i := contLetras downto 1 do
+                palabraInversa := palabraInversa + palabra[i];
 
-                        // Re inicializa valores para la proxima palabra
-                        dentroPalabra := false;
-                        contLetras := 0;
-                        contVocales := 0;
-                        palabra := '';
-                        alReves := '';
-                        esCapicua := true;
-                    end;
-        end; // Fin de case
-    end;
+            writeln(palabra,' su inversa es ', palabraInversa);
+        end;
 
-    // a)
-    writeln('Palabra con mas vocales: ', masVocales);
-    // c)
+        // Es capicua si tiene mas de una letra y su letra en orden inversa es igual
+        if contLetras > 1 then
+            for i := 1 to contLetras do
+                begin
+                if palabra[i] <> palabra[contLetras - i + 1] then
+                    esCapicua := false;
+                end
+        else
+            esCapicua := false;
+
+
+        // Vocales
+        if contVocales > contMasVocales then
+        begin
+            contMasVocales := contVocales;
+            palabraMasVocales := palabra;
+        end;
+
+        if esCapicua then
+        begin
+            writeln(palabra,' es capicua');
+            contCapicua := contCapicua + 1;
+        end;
+
+    end; // Fin de while externo
+
+    writeln(palabraMasVocales, ' es la que tiene mas vocales');
     writeln('Hay ', contCapicua, ' palabras capicua');
-
-
+    close(arch);
     readln();
+
 end.
 
 {
