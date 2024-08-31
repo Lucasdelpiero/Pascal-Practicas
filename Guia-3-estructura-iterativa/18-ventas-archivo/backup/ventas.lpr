@@ -60,7 +60,7 @@ begin
                 end
         else        // Si no es el nombre o fin de linea es una venta
             begin
-                prom := leido;
+                prom := leido;  // Como no es un ***** es un (S / N)
                 prom := upcase(prom);
                 readln(arch, precio);
                 precioBase:= precioBase + precio;

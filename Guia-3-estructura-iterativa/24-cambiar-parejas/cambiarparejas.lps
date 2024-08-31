@@ -9,9 +9,9 @@
         <Filename Value="cambiarparejas.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="43"/>
-        <CursorPos X="26" Y="53"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="52"/>
+        <CursorPos X="17" Y="57"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,7 +19,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="19"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
@@ -32,34 +32,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="62" TopLine="48"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="22" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="25" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="28" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="29" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="30" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="cambiarparejas.lpr"/>
-        <Caret Line="31" TopLine="11"/>
-      </Position>
       <Position>
         <Filename Value="cambiarparejas.lpr"/>
         <Caret Line="30" TopLine="11"/>
@@ -151,6 +123,34 @@
       <Position>
         <Filename Value="cambiarparejas.lpr"/>
         <Caret Line="63" Column="20" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="78" Column="10" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="19" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="21" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="29" Column="28" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="34" Column="72" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="32" Column="20" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="cambiarparejas.lpr"/>
+        <Caret Line="22" Column="39" TopLine="10"/>
       </Position>
     </JumpHistory>
     <RunParams>

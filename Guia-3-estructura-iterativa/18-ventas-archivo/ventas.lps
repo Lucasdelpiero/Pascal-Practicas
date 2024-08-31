@@ -8,16 +8,17 @@
       <Unit>
         <Filename Value="ventas.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="46"/>
-        <CursorPos X="69" Y="66"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="80"/>
+        <CursorPos X="17" Y="88"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
+        <TopLine Value="3"/>
         <CursorPos X="6" Y="26"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>

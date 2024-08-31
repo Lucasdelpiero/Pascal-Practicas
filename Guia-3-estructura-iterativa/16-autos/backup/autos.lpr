@@ -29,7 +29,6 @@ begin
             contMasViajes := contMasViajes + 1;
             distanciaTotal := distanciaTotal + num;
             read(arch,num);
-
         end;
 
         //a

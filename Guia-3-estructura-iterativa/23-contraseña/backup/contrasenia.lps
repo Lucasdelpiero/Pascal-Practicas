@@ -8,74 +8,142 @@
       <Unit>
         <Filename Value="contrasenia.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="49"/>
-        <CursorPos X="55" Y="60"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="24"/>
+        <CursorPos Y="35"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="71"/>
-        <UsageCount Value="21"/>
+        <CursorPos X="10"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="12">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="10" Column="12"/>
+        <Caret Line="62" TopLine="50"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="78"/>
+        <Caret Line="39" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="26" Column="39"/>
+        <Caret Line="41" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="3" Column="11"/>
+        <Caret Line="43" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="4" Column="21" TopLine="28"/>
+        <Caret Line="44" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="5" Column="15"/>
+        <Caret Line="45" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="49" Column="58" TopLine="37"/>
+        <Caret Line="48" TopLine="28"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="41" Column="46" TopLine="30"/>
+        <Caret Line="62" TopLine="50"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="43" Column="46" TopLine="33"/>
+        <Caret Line="39" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="11" Column="22" TopLine="4"/>
+        <Caret Line="41" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="82" Column="88" TopLine="71"/>
+        <Caret Line="43" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="52" Column="59" TopLine="41"/>
+        <Caret Line="44" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="contrasenia.lpr"/>
-        <Caret Line="82" Column="38" TopLine="63"/>
+        <Caret Line="45" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="46" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="62" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="39" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="66" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="67" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="70" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="73" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="76" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="77" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="21" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="24" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="25" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="26" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="27" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="28" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="29" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="contrasenia.lpr"/>
+        <Caret Line="32" TopLine="12"/>
       </Position>
     </JumpHistory>
     <RunParams>

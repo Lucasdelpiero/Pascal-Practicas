@@ -18,45 +18,43 @@ begin
 
     read(entrada, car);
     repeat
-        case carAnterior of
-            'a'..'z':
-                begin
-                    case car of
-                        '0'..'9':
-                        begin
-                            reemplaza := true;
-                            val(car, num);
-                            for i := 1 to num do
-                                palabra := palabra + carAnterior;
-
-                        end
-                        else
-                          begin
-                            reemplaza := false;
-                            palabra := palabra + carAnterior;
-                          end;
-
-
-
-                    end;
-                end;
-            'A'..'Z':
+        // Minuscula seguido de algo, puede o no reemplazar la secuencia
+        if carAnterior in ['a'..'z']  then
+            begin
+            if car in ['0'..'9'] then  // Se reemplaza "num" numero de veces
+            begin
+                reemplaza := true;
+                val(car, num);
+                for i := 1 to num do
+                    palabra := palabra + carAnterior;
+            end
+            else // No se reemplaza la misma letra muchas veces
                 begin
                     reemplaza := false;
-                    palabra := palabra + carAnterior
-                end;
-            '0'..'9':
+                    palabra := palabra + carAnterior;
+                end
+            end
+        // El primer caracter es mayuscula, imposible que el siguiente caracter se reemplaze
+        else
+            if carAnterior in ['A'..'Z'] then
+                begin
+                    reemplaza := false;
+                    palabra := palabra + carAnterior;
+                end
+        // Es un numero, se escribe dependiendo de si tuvo antes una minuscula o mayuscula
+        else
+            if carAnterior in ['0'..'9'] then
+            begin
                 if reemplaza = false then
                     palabra := palabra + carAnterior;
-            ' ':
-                begin
-                    write(palabra,' ');
-                    palabra:= '';
-                end;
 
-        end;
-
-
+            end
+        else
+            if carAnterior = ' ' then
+            begin
+                write(palabra,' ');
+                palabra:= '';
+            end;
 
         carAnterior := car;
         read(entrada, car);
@@ -66,6 +64,8 @@ begin
     palabra := palabra + carAnterior + '.';
     write(palabra);
 
+    close(entrada);
+    close(salida);
     readln();
 
 end.

@@ -8,15 +8,15 @@
       <Unit>
         <Filename Value="enteropromedio.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="29"/>
-        <CursorPos X="17" Y="27"/>
+        <CursorPos X="17" Y="42"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>

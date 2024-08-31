@@ -60,6 +60,7 @@ begin
     //c
     writeln('El que recorrio la menor cantidad de kms consumio: ', consumoMenorRecorrido:0:2);
 
+    close(arch);
     readln();
 
 

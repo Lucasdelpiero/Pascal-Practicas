@@ -1,7 +1,7 @@
 program contrasenia;
     var
         arch : text;
-        dentroContra, esValida, tieneMinus, tieneMayus: boolean;
+        esValida, tieneMinus, tieneMayus: boolean;
         contra : string;
         contCar, contraTotales, contInvalidas, invalidaMasLarga, contDigitos : byte;
         car : char;
@@ -11,22 +11,35 @@ begin
     contDigitos := 0;
     contraTotales := 0;
     contInvalidas := 0;
-    dentroContra := false;
     esValida := true;
     invalidaMasLarga := 0;
-    car := 'a';
+    car := 'a'; // Valor inicial que se reemplaza al leer el primer caracter
     contra := '';
     assign(arch, 'datos.txt');
     reset(arch);
 
     while not (car = '.') do
     begin
-        read(arch, car);
-        // Usar un case evita error de agarrar caracteres bugeados
-        case car of
-            'a'..'z','A'..'Z','0'..'9':
+        // Inicializacion para variables de la contra
+        esValida := true;
+        contCar := 0;
+        contra := '';
+        tieneMinus := false;
+        tieneMayus := true;
+        contDigitos := 0;
+
+        // Lee el primer caracter del archivo y lee el primer caracter seguido de un espacio
+        read(arch,car);
+
+        // Saltea los espacios
+        while car = ' ' do
+            read(arch,car);
+
+        // Esta dentro de una palabra
+        while (car <> ' ') and (car <> '.') do
+            begin
+                if (car in ['a'..'z']) or (car in ['A'..'Z']) or (car in ['0'..'9']) then
                 begin
-                    dentroContra := true;
                     contra := contra + car;
                     contCar := contCar + 1;
                     case car of
@@ -35,47 +48,40 @@ begin
                         '0'..'9': contDigitos := contDigitos + 1;
                     end
 
-                end;
-            ' ','.':
-                if dentroContra = true then
-                    // Finaliza contra y hay que evaluarla
+                end
+                else // Tiene un caracter no permitido ( & % # )
+                    if (car <> '.') and (car <> ' ') then
                     begin
-                        //writeln(contra);  // descomentar para testear
-                        contraTotales := contraTotales + 1;
-                        if contCar < 8 then
-                            esValida := false
-                        else
-                            if contDigitos <> 4 then
-                                esValida := false
-                        else
-                            esValida := tieneMinus and tieneMayus;
-
-                        if esValida then
-                            writeln(contra, '     VALIDA ')
-                        else
-                            begin
-                                contInvalidas := contInvalidas + 1;
-                                if contCar > invalidaMasLarga then
-                                    invalidaMasLarga := contCar;
-                                writeln(contra, '      INVALIDA ');
-                            end;
-
-
-
-
-
-
-
-                        // Re inicializa valores para la proxima contra
-                        dentroContra := false;
-                        esValida := true;
-                        contCar := 0;
-                        contra := '';
-                        tieneMinus := false;
-                        tieneMayus := true;
-                        contDigitos := 0;
+                        esValida := false;
+                        contra := contra + car;
+                        contCar := contCar + 1;
                     end;
-        end; // Fin de case
+
+
+
+            read(arch, car);
+            end; // Finaliza la palabra
+
+        // Evaluamos la contra
+        contraTotales := contraTotales + 1;
+        if contCar < 8 then
+            esValida := false
+        else
+            if contDigitos <> 4 then
+                esValida := false
+        else
+            esValida := tieneMinus and tieneMayus;
+
+        // Informar si es valida o no
+        if esValida then
+            writeln(contra, '     VALIDA ')
+        else
+            begin
+                contInvalidas := contInvalidas + 1;
+                if contCar > invalidaMasLarga then
+                    invalidaMasLarga := contCar;
+                writeln(contra, '      INVALIDA ');
+            end;
     end;
     writeln('=========================');
 
@@ -83,8 +89,9 @@ begin
     if contraTotales = 0 then
         writeln('Hay cero contrasenias en los datos')
     else
-        writeln('El % de contras invalidas es ', (contInvalidas / contraTotales):0:2);
+        writeln('El % de contras invalidas es ', (100 * contInvalidas / contraTotales):0:2);
     writeln('La longitud de la contra invalida mas larga es de ', invalidaMasLarga, ' caracteres');
+    close(arch);
     readln();
 end.
 

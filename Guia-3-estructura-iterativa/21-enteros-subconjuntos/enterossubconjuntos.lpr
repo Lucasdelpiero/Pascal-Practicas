@@ -50,6 +50,7 @@ begin
     end;
 
     writeln('El subconjunto con mas elementos es: ', masElem);
+    close(arch);
     readln()
 end.
 

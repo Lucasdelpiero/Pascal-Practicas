@@ -11,7 +11,7 @@ begin
     max := 0;
     masElem := 0;
     subConj := 1;
-    anterior := 9999;
+    anterior := 100;
     assign(arch, 'datos.txt');
     reset(arch);
     continuar := true;

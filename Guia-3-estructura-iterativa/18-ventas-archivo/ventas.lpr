@@ -85,6 +85,7 @@ begin
     // c)
     writeln(contClientesSoloOfertas ,' clientes compraron solo articulos en oferta.');
 
+    close(arch);
     readln();
 
 end.

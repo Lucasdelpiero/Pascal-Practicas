@@ -39,6 +39,7 @@ begin
 
     end;
 
+    close(arch);
     readln();
 
 end.

@@ -18,6 +18,44 @@ begin
 
     read(entrada, car);
     repeat
+        // Minuscula seguido de algo, puede o no reemplazar la secuencia
+        if carAnterior in ['a'..'z']  then
+            begin
+            if car in ['0'..'9'] then  // Se reemplaza "num" numero de veces
+            begin
+                reemplaza := true;
+                val(car, num);
+                for i := 1 to num do
+                    palabra := palabra + carAnterior;
+            end
+            else // No se reemplaza la misma letra muchas veces
+                begin
+                    reemplaza := false;
+                    palabra := palabra + carAnterior;
+                end
+            end
+        // El primer caracter es mayuscula, imposible que el siguiente caracter se reemplaze
+        else
+            if carAnterior in ['A'..'Z'] then
+                begin
+                    reemplaza := false;
+                    palabra := palabra + carAnterior;
+                end
+        // Es un numero, se escribe dependiendo de si tuvo antes una minuscula o mayuscula
+        else
+            if carAnterior in ['0'..'9'] then
+            begin
+                if reemplaza = false then
+                    palabra := palabra + carAnterior;
+
+            end
+        else
+            if carAnterior = ' ' then
+            begin
+                write(palabra,' ');
+                palabra:= '';
+            end;
+       {
         case carAnterior of
             'a'..'z':
                 begin
@@ -50,12 +88,12 @@ begin
                     palabra := palabra + carAnterior;
             ' ':
                 begin
-                    writeln(palabra,' ');
+                    write(palabra,' ');
                     palabra:= '';
                 end;
 
         end;
-
+        }
 
 
         carAnterior := car;
@@ -64,8 +102,10 @@ begin
 
     // La ultima palabra hay que hacerla manualmente
     palabra := palabra + carAnterior + '.';
-    writeln(palabra);
+    write(palabra);
 
+    close(entrada);
+    close(salida);
     readln();
 
 end.

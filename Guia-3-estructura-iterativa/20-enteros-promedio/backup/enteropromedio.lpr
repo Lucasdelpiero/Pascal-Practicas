@@ -17,14 +17,16 @@ begin
     while not eof(arch) do
     begin
         read(arch, num);
-        if num < 0 then  // Comienza a contarse el num maximo
+        if num < 0 then  // Comienza o termine el conjunto
             begin
                 dentroConjunto := true;
-                        if contEnteros = 0 then
-                            writeln('Hay cero positivos en este conjunto')
-                        else
-                            writeln((sumPos / contEnteros):0:2,' ');
-                sumPos := 0; // Se re-inicializa para el proximo conjunto
+                if contEnteros = 0 then
+                    writeln('Hay cero positivos en este conjunto')
+                else
+                    writeln((sumPos / contEnteros):0:2,' ');
+
+                // Se re-inicializa para el proximo conjunto
+                sumPos := 0;
                 contEnteros := 0
             end
         else // Si es parte del conjunto y positivo se ve si es el mayor del conjunto

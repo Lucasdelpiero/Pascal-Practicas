@@ -24,7 +24,7 @@ begin
                 maxNum := 0; // Se re-inicializa para el proximo conjunto
             end
         else // Si es parte del conjunto y positivo se ve si es el mayor del conjunto
-            if (dentroConjunto = true) and (num > maxNum) then
+            wif (dentroConjunto = true) and (num > maxNum) then
                 maxNum := num;
 
 
