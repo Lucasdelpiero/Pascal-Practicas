@@ -8,7 +8,7 @@ var
     const
         sueldo=15000;
 begin
-    writeln('Ingrese la cantidad de empleados que tiene tu empresa de mierda');
+    writeln('Ingrese la cantidad de empleados que tiene su empresa');
     readln(empleados);
     for i:=1 to empleados do
     begin
@@ -39,11 +39,11 @@ begin
     end;
     if empleados<>0 then
     begin
-        writeln('El empleado ',nombreMayor,' ,cobra $',sueldoMayor:0:2, ' y vende merca');
+        writeln('El empleado ',nombreMayor,' ,cobra $',sueldoMayor:0:2, ' tiene el mayor salario');
         writeln('El sueldo promedio entre todos los empleados es: $', (sueldototal/empleados):0:2 );
     end
     else
-        writeln('no tenes empleados jaja pobre');
+        writeln('No tiene empleados sobre los cuales informar');
 end.
 
 
