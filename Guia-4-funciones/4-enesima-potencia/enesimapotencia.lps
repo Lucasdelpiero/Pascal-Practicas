@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="enesimapotencia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos X="20" Y="16"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="7">
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="17" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="6" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="2" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="3" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="6" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="4" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="9" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="enesimapotencia.lpr"/>
+        <Caret Line="15" Column="65" TopLine="3"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

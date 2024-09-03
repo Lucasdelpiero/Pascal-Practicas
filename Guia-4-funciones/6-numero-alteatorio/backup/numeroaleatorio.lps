@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="14">
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="5"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="8"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="numeroaleatorio.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

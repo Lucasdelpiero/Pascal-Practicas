@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1488545472"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FiC:\Users\Usuario\Desktop\Unidad 4\5-calcular-determinante\lib\i386-win32&quot; &quot;-FuC:\Users\Usuario\Desktop\Unidad 4\5-calcular-determinante\&quot; &quot;-FUC:\Users\Usuario\Desktop\Unidad 4\5-calcular-determinante\lib\i386-win32\&quot; &quot;-FEC:\Users\Usuario\Desktop\Unidad 4\5-calcular-determinante\&quot; &quot;-oC:\Users\Usuario\Desktop\Unidad 4\5-calcular-determinante\calculardeterminante.exe&quot; calculardeterminante.lpr"/>
+</CONFIG>

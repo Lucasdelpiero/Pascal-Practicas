@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="esletra.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="esUnletra"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos X="14" Y="23"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="esletra.lpr"/>
+        <Caret Line="21" Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="esletra.lpr"/>
+        <Caret Line="2" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="esletra.lpr"/>
+        <Caret Line="4" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="esletra.lpr"/>
+        <Caret Line="19" Column="38" TopLine="3"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
