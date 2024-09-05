@@ -35,8 +35,6 @@ begin
         while car = ' ' do
             read(arch,car);
 
-
-
         // Esta dentro de una palabra
         while (car <> ' ') and (car <> '.') do
             begin
@@ -52,7 +50,7 @@ begin
 
                 end
                 else // Tiene un caracter no permitido ( & % # )
-                    if (car <> '.') and (car <> ' ') then
+                    //if (car <> '.') and (car <> ' ') then
                     begin
                         esValida := false;
                         contra := contra + car;

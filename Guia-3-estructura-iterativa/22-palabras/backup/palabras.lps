@@ -9,6 +9,7 @@
         <Filename Value="palabras.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Palabras"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="14" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -16,7 +17,6 @@
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="50"/>
         <UsageCount Value="20"/>

@@ -50,7 +50,6 @@ begin
 
                 end
                 else // Tiene un caracter no permitido ( & % # )
-                    if (car <> '.') and (car <> ' ') then
                     begin
                         esValida := false;
                         contra := contra + car;
