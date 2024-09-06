@@ -1,7 +1,4 @@
 program palabraempieza;
-
-uses unit1;
-
 var
     arch : text;
     char1, char2 , charCom: char;

@@ -8,19 +8,11 @@
       <Unit>
         <Filename Value="palabraempieza.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="5" Y="38"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="18"/>
+        <CursorPos X="2" Y="40"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="text.txt"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="40"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
