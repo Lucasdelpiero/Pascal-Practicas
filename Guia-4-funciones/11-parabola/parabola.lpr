@@ -1,14 +1,17 @@
 program parabola;
+// a)
 function ejeDeSimetria(a, b : real) : real;
 begin
-    ejeDeSimetria := (b)/(2 * a);
+    ejeDeSimetria := (-b)/(2 * a);
 end;
 
+// b)
 function aperturaArriba(a : real): boolean;
 begin
     aperturaArriba := a > 0;
 end;
 
+// c     Usa el discriminante para saber si hay dos, una o cero raices
 function cantRaices(a, b, c : real) : integer;
 var
     discriminante : real;
@@ -24,9 +27,11 @@ begin
 
 end;
 
-procedure raices(a, b, c : real; var r1, r2 : real);
+// c     Muestra las raices de la funcion
+procedure raices(a, b, c : real);
 var
     auxRaices : integer;
+    r1, r2 : real;
 begin
     auxRaices := cantRaices(a, b, c);
     if auxRaices = 2 then
@@ -45,12 +50,14 @@ begin
         writeln('c) No tiene raices');
 end;
 
+// d) dibuja la imagen de la funcion en tal posicion de x
 function imagen(a, b, c, x : real) : real;
 begin
     imagen := (a * x * x) + (b * x) + c;
 end;
 
-procedure evaluar(a, b, c : real;var r1, r2 : real);
+// Procedimiento que toma a la funcion y resuelve todos los incisos
+procedure evaluar(a, b, c : real);
 var
     imagenes, i : integer;
     x : real;
@@ -63,7 +70,7 @@ begin
     else
         writeln('b)La apertura de la parabola es hacia abajo');
     // c)
-    raices(a, b, c, r1, r2);
+    raices(a, b, c);
 
     // d)
     writeln('d)Cuantas imagenes desea escribir en pantalla? ');
@@ -77,25 +84,22 @@ begin
 
 end;
 
+// Proceso principal que guarda las varibales donde se guardan la formula en su
+// almacenamiento local (Es preferible evitar usar variables globales)
 procedure comienzo();
 var
     a, b, c : real;
-    r1 , r2: real;
 begin
-    r1 := -99;
-    r2 := -99;
-    a := -3;
-    b := -2;
-    c := 5;
-    writeln('Ingrese el termino cuadratico');
+    writeln('Ingrese el a (del termino cuadratico)');
     readln(a);
-    writeln('Ingrese el termino lineal');
+    writeln('Ingrese el b (del termino lineal)');
     readln(b);
     writeln('Ingrese el termino independiente');
     readln(c);
-    evaluar(a, b, c, r1, r2);
+    evaluar(a, b, c);
 end;
 
+// Comienza el programa llamando a un procedimiento, no hay uso de variables globales
 begin
     comienzo();
 

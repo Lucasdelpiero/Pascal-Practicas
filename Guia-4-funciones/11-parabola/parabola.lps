@@ -9,13 +9,13 @@
         <Filename Value="parabola.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="72"/>
-        <CursorPos X="19" Y="83"/>
+        <TopLine Value="94"/>
+        <CursorPos X="24" Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="24">
+    <JumpHistory HistoryIndex="25">
       <Position>
         <Filename Value="parabola.lpr"/>
         <Caret Line="18" Column="5" TopLine="9"/>
@@ -115,6 +115,10 @@
       <Position>
         <Filename Value="parabola.lpr"/>
         <Caret Line="85" Column="39" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="84" Column="6" TopLine="78"/>
       </Position>
     </JumpHistory>
     <RunParams>
