@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="fracciones.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="27"/>
+        <CursorPos Y="35"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="22" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="2" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="27" Column="24" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="2" Column="42"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="5" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="8" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="15" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="2" Column="63"/>
+      </Position>
+      <Position>
+        <Filename Value="fracciones.lpr"/>
+        <Caret Line="16" Column="35"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

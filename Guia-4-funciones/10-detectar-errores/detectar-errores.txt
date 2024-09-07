@@ -1,0 +1,33 @@
+Ej 10) Dado el siguiente trozo de código detectar los errores, enumerarlos y justificar.
+
+1) No esta inicializado P
+2) No esta inicializado N
+3) M es de tipo real cuando el proc acepta solo integer y N no esta inicializado 
+4) Primer argumento es real y debe ser entero, y N no esta inicializado
+5) P no está inicializado 
+6) El proc AAA no devuelve valor que pueda ser escrito, car y p no esta inicializado
+
+
+ProcedureAAA(var C : char; var N:byte; x,y:real );
+………………….
+Function BBB( M:integer; B:boolean): char;
+…………………
+Function CCC(Car : char; W:real):Boolean;
+……………………
+Procedure DDD(varN,M:integer);
+………………………
+Var
+	Car: char;
+	M, Z, W : real;
+	P: byte;
+	N: integer;
+Begin
+	Readln(Z, W);
+	AAA (‘c’, P, Z, W);  <--- 1) No esta inicializado P
+	If CCC( BBB( N, Z<> W), 5.4) then    <---- 2) No está inicializado N
+		DDD(N, M)    <--- 3) M es de tipo real cuando el proc acepta solo integer y N no esta inicializado 
+	Else
+		DDD(12.5, N-2);  <----  4) Primer argumento es real y debe ser entero, y N no esta inicializado
+	Write (BBB(20, P=0));  <---- 5) P no está inicializado 
+	Write (AAA(Car, P, M, Z)); <--- 6) El proc AAA no devuelve valor que pueda ser escrito, car y p no esta inicializado
+………………………

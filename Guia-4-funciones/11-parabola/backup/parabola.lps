@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parabola.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="52"/>
+        <CursorPos X="39" Y="85"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="23">
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="18" Column="5" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="4" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="7" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="5" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="7" Column="29"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="13" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="10" Column="47"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="38" Column="12" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="46" Column="39" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="32" Column="25" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="34" Column="25" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="17" Column="46" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="58" Column="32" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="73" Column="67" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="37" Column="30" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="19" Column="47" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="67" Column="11" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="46" Column="23" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="78" Column="30" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="60" Column="37" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="65" Column="29" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="9" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="88" Column="30" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="parabola.lpr"/>
+        <Caret Line="69" Column="19" TopLine="73"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
