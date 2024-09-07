@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="hora.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="40" Y="19"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="21" Column="21" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="38" Column="44" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="7" Column="64"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="10" Column="68"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="9" Column="71"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="14" Column="63" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="21" Column="45" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="18" Column="92" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="15" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="21" Column="56" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="hora.lpr"/>
+        <Caret Line="15" Column="46" TopLine="3"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
