@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="seriefinita.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="42"/>
+        <CursorPos Y="52"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="15">
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="70" Column="45" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="3" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="12" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="25" Column="7" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="43" Column="21" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="36" Column="8" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="44" Column="5" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="62" Column="17" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="66" Column="13" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="47" Column="56" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="25" Column="17" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="87" Column="64" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="44" Column="23" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="48" Column="31" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="30" Column="40" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="seriefinita.lpr"/>
+        <Caret Line="34" Column="5" TopLine="26"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
