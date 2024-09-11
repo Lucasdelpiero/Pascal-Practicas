@@ -9,17 +9,12 @@
         <Filename Value="facturacion.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="27"/>
-        <CursorPos X="19" Y="34"/>
+        <CursorPos X="11" Y="3"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="8">
-      <Position>
-        <Filename Value="facturacion.lpr"/>
-        <Caret Line="34" Column="63" TopLine="45"/>
-      </Position>
+    <JumpHistory HistoryIndex="7">
       <Position>
         <Filename Value="facturacion.lpr"/>
         <Caret Line="2" Column="31"/>
@@ -46,11 +41,11 @@
       </Position>
       <Position>
         <Filename Value="facturacion.lpr"/>
-        <Caret Line="34" Column="25" TopLine="43"/>
+        <Caret Line="15" Column="39" TopLine="3"/>
       </Position>
       <Position>
         <Filename Value="facturacion.lpr"/>
-        <Caret Line="15" Column="39" TopLine="3"/>
+        <Caret Line="17" Column="46" TopLine="44"/>
       </Position>
     </JumpHistory>
     <RunParams>

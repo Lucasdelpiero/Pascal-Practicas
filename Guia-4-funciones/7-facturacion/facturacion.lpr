@@ -1,4 +1,6 @@
 program facturacion;
+type
+    st32 = String[32];
 function impuesto(tipo : char; fact: real) : real;
 const
     ivaRi = 0.21;
@@ -12,7 +14,7 @@ begin
 end;
 
     var
-        nombre, nombreMenosFacturacion : string;
+        nombre, nombreMenosFacturacion : st32;
         tipo : char;
         fact, menorFacturacion : real;
         meses : byte;
