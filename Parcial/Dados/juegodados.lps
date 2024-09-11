@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="juegodados.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="24"/>
+        <CursorPos X="47" Y="38"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="47" Column="14" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="11" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="20" Column="9" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="33" Column="34" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="22" Column="18" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="6" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="30" Column="32" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="28" Column="22" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="juegodados.lpr"/>
+        <Caret Line="44" Column="62" TopLine="27"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

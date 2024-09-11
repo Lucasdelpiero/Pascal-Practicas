@@ -34,15 +34,22 @@ Begin
                 Todas:= Todas + ' '+ Pal;
     end;
     Close(Arch);
+    // Solo era necesario cambiar esto debajo de lugar, sacandolo del programa principal
+    Writeln ('estas son las palabras mas largas') ;
+    writeln (Todas);
+    Writeln ('Tienen ', Max, ' caracteres') ;
 End;
 Var
     Todas: string;
     Max : byte;
 Begin
     Evalua(Todas, max);
-    Writeln ('estas son las palabras mas largas') ;
-    writeln (Todas);
-    Writeln ('Tienen ', Max, ' caracteres') ;
+
     Readln;
 end.
+{
+ Ej 14) Modificar el código del ejemplo 8, dado en la teoría, para que el procedimiento Evalua(), devuelva
+además, la cantidad de palabras más largas y el programa muestre además, dicho resultado.
+Considerar que cada palabra finaliza con punto y vienen en líneas diferentes
+}
 

@@ -8,15 +8,17 @@
       <Unit>
         <Filename Value="maslargas.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="5" Y="36"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="35"/>
+        <CursorPos X="6" Y="46"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="texto.txt"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
+        <CursorPos X="31"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>

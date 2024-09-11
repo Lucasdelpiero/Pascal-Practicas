@@ -10,6 +10,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Palabras"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="37"/>
         <CursorPos X="14" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>

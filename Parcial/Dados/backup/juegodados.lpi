@@ -10,7 +10,7 @@
         <MainUnitHasScaledStatement Value="False"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="maslargas"/>
+      <Title Value="juegodados"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,11 +26,11 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="maslargas.lpr"/>
+        <Filename Value="juegodados.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="texto.txt"/>
+        <Filename Value="text.txt"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -39,7 +39,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="maslargas"/>
+      <Filename Value="juegodados"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
