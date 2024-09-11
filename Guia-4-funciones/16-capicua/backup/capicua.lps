@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="capicua.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="capicua.lpr"/>
+        <Caret Line="8" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="capicua.lpr"/>
+        <Caret Line="3" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="capicua.lpr"/>
+        <Caret Line="8" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="capicua.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="capicua.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="paresimpares.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="16"/>
+        <CursorPos X="54" Y="53"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="2" Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="paresimpares.lpr"/>
+        <Caret Line="34" Column="23" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="paresimpares.lpr"/>
+        <Caret Line="3" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="paresimpares.lpr"/>
+        <Caret Line="37" Column="26" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="paresimpares.lpr"/>
+        <Caret Line="22" Column="29" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="paresimpares.lpr"/>
+        <Caret Line="26" Column="13" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="datos.txt"/>
+        <Caret Line="14" Column="2"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
