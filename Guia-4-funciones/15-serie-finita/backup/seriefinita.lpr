@@ -4,16 +4,11 @@ type
 
 
 function f1(n : byte) : real;
-var
-  i : byte;
-  resultado : real;
 begin
-    resultado := 0;
-    for i:= 1 to n do
-        resultado := resultado + (1 / (i * i) );
-    f1 := resultado;
+    f1 :=  (1 / (n * n) );
 end;
 
+// Halla la potencia de tal numero (para la funcion 2)
 function pow(num: real; exp: byte) : real;
 var
     i : byte;
@@ -23,9 +18,6 @@ begin
     if exp = 0 then
         pow := 1
     else
-        if exp = 1 then
-            pow := num
-    else
         begin
         for i:=2 to exp  do
             acum := num * acum;
@@ -34,24 +26,11 @@ begin
 end;
 
 function f2(n : byte) : real;
-var
-  i : byte;
-  resultado : real;
-  denom : word;
 begin
-    resultado := 1;
-    denom := 2;
-    for i:= 3 to n-1 do
-    begin
-        denom := denom * denom;
-    end;
-    for i:= 2 to n do
-        resultado := resultado + (1 /  pow(2,i - 1) );
-    f2 := resultado;
+    f2 :=  (1 /  pow(2,n - 1) );
 end;
 
-;
-
+// Halla el factorial de tal numero (para la funcion 3)
 function fact(n : byte) : real;
 begin
     if n = 1 then
@@ -61,19 +40,21 @@ begin
 end;
 
 function f3(n : byte) : real;
-var
-    i : byte;
-    resultado : real;
 begin
-    resultado := 0;
-    for i:= 1 to n do
-        resultado := resultado + (1 / fact(i) );
-    f3 := resultado;
+    f3 :=  1 / fact(n) ;
 end;
 
 procedure calculo(N : byte; var res : real; f : tfunc);
+var
+    i : byte;
+    acum : real;
 begin
-    res := f(n);
+    acum := 0;
+    for i:=1 to n do
+    begin
+        acum := acum + f(i)
+    end;
+    res := acum;
 end;
 
 var
@@ -83,11 +64,9 @@ var
     funcUsar : tfunc;
 begin
     writeln('Hasta que termino desea calcular?');
-    writeln('Lo uso pal pow');
     readln(termino);
-    writeln('El pow 3 de ', termino,' es ', pow(termino, 3):0:2);
-    writeln('RES1 = 1 + 1/4 + 1/9 +...+1/ n2');
-    writeln('RES2 = 1 + 1/2 + 1/4 +...+ 1/ 2 (n-1)');
+    writeln('RES1 = 1 + 1/4 + 1/9 +...+1/ n^2');
+    writeln('RES2 = 1 + 1/2 + 1/4 +...+ 1/ 2 ^(n-1)');
     writeln('RES3 = 1 + 1/2! + 1/3! +...+ 1/ n! ');
     writeln('Que funcion desea usar (1,2,3)');
     readln(menu);
@@ -110,8 +89,8 @@ RES = resultado
 F = función para calcular cada uno de los términos de la serie
 El procedimiento calculará: RES = F(1) + F(2) + F(3) +...+ F(n)
 y se pide utilizarlo para evaluar por medio de un menú
-RES1 = 1 + 1/4 + 1/9 +...+1/ n2
-RES2 = 1 + 1/2 + 1/4 +...+ 1/ 2 (n-1)
+RES1 = 1 + 1/4 + 1/9 +...+1/ n^2
+RES2 = 1 + 1/2 + 1/4 +...+ 1/ 2^(n-1)
 RES3 = 1 + 1/2! + 1/3! +...+ 1/ n!
 Resolver utilizando el tipo función. ¿Cómo cambiaría F por P de tipo procedimiento?
 }
