@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="promediodivisores.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="83"/>
+        <CursorPos X="41" Y="87"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="17">
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="17" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="38" Column="33" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="3" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="4" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="6" Column="42"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="22" Column="9" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="28" Column="21" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="37" Column="16" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="81" Column="55" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="32" Column="72" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="64" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="41" Column="12" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="50" Column="37" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="44" Column="30" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="75" Column="37" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="76" Column="37" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="77" Column="39" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="promediodivisores.lpr"/>
+        <Caret Line="76" Column="35" TopLine="65"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
