@@ -8,10 +8,17 @@
       <Unit>
         <Filename Value="simplificacion.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="26"/>
+        <TopLine Value="25"/>
         <CursorPos X="15" Y="6"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\..\AppData\Local\Temp\98ed73cf-0aae-4401-b799-4a7fecd06b03_Programacion 1.zip.b03\Programacion 1\Parciales\Primer parcial parte A 8-4-24\parcial_1a_8_4_24.lpr"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
