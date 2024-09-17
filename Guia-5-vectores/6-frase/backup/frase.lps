@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="frase.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="frases"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="136"/>
+        <CursorPos X="17" Y="138"/>
+        <FoldState Value=" T1906 T3iD0E1 PXG0E"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="37" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="38" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="48" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="31" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="44" Column="22" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="33" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="63" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="60" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="5" Column="38" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="159" Column="28" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="5" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="125" Column="44" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="5" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="70" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="121" Column="42" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="41" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="20" Column="5" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="18" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="125" Column="34" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="52" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="117" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="18" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="177" Column="34" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="118" Column="52" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="119" Column="34" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="155" Column="46" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="131" Column="14" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="138" Column="17" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="131" Column="14" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="frase.lpr"/>
+        <Caret Line="138" Column="17" TopLine="126"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
