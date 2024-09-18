@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="dosarreglos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="26"/>
+        <CursorPos X="71" Y="38"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="6" Column="6"/>
+      </Position>
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="26" Column="17" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="79" Column="26" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="38" Column="66" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="39" Column="8" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="dosarreglos.lpr"/>
+        <Caret Line="48" Column="26" TopLine="37"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
