@@ -35,7 +35,7 @@ begin
     end;
 end;
 
-procedure genSimetria(vectA : v32; vectAl : byte; var vectB : v32; vectBl : byte );
+procedure genSimetria(vectA : v32; vectAl : byte; var vectB : v32; var vectBl : byte );
 var i : byte;
 begin
     vectB := vectA;

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="javalina.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="97"/>
+        <CursorPos X="22" Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="4" Y="18"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="25">
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="46" Column="40" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="6" Column="46"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="19" Column="22" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="40" Column="16" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="34" Column="31" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="53" Column="21" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="66" Column="41" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="86" Column="44" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="68" Column="21" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="86" Column="42" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="111" Column="82" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="102" Column="25" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="127" Column="58" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="100" Column="36" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="126" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="85" Column="68" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="136" Column="33" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="137" Column="35" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="20" Column="12" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="26" Column="15" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="117" Column="5" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="120" Column="5" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="116" Column="11" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="javalina.lpr"/>
+        <Caret Line="137" Column="29" TopLine="122"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
