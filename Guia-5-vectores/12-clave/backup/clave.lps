@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="clave.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="34"/>
+        <CursorPos X="40" Y="43"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="15" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="51" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="52" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="27" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="29" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="30" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="31" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="32" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="34" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="35" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="39" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="32" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="34" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="35" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="39" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="32" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="34" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="35" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="49" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="50" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="51" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="52" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="27" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="58" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="67" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="88" Column="51" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="82" Column="12" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="111" Column="20" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="99" Column="10" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="46" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="43" Column="46" TopLine="28"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="clave.lpr"/>
+        <Line Value="46"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
