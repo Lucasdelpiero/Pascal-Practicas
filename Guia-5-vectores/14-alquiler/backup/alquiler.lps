@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="alquiler.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="107"/>
+        <CursorPos X="29" Y="118"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="8" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="27">
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="45" Column="39" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="88" Column="5" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="25" Column="8" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="26" Column="5" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="61" Column="13" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="63" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="64" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="66" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="67" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="68" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="61" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="63" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="64" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="66" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="67" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="68" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="61" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="63" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="64" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="71" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="61" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="63" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="75" Column="33" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="125" Column="77" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="8" Column="69"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="11" Column="11" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="16" Column="12" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="alquiler.lpr"/>
+        <Caret Line="114" Column="17" TopLine="105"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

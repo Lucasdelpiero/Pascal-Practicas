@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1488545472"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FiC:\Users\Usuario\Desktop\Progra 1\Pascal-Practicas\Guia-5-vectores\14-alquiler\lib\i386-win32&quot; &quot;-FuC:\Users\Usuario\Desktop\Progra 1\Pascal-Practicas\Guia-5-vectores\14-alquiler\&quot; &quot;-FUC:\Users\Usuario\Desktop\Progra 1\Pascal-Practicas\Guia-5-vectores\14-alquiler\lib\i386-win32\&quot; &quot;-FEC:\Users\Usuario\Desktop\Progra 1\Pascal-Practicas\Guia-5-vectores\14-alquiler\&quot; &quot;-oC:\Users\Usuario\Desktop\Progra 1\Pascal-Practicas\Guia-5-vectores\14-alquiler\alquiler.exe&quot; alquiler.lpr"/>
+</CONFIG>
