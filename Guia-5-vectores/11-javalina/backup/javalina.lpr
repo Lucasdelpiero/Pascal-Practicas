@@ -141,7 +141,6 @@ begin
     writeln('d) En semis estan:');
     writeVecN(vecSemNom, vecSemL);
 
-
     readln();
 end.
 {

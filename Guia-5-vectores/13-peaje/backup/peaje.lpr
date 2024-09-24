@@ -14,7 +14,7 @@ procedure writeRec( vec : vR ; vL : byte);
 var i : byte;
 begin
     for i:=1 to vL do
-        writeln('Cab ', i,': $', vec[i]:6:2);
+        writeln('Cab ', i,': $ ', vec[i]:6:2);
 end;
 
 

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="silos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="169"/>
+        <CursorPos X="6" Y="161"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="16"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="18" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="19" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="22" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="23" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="29" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="31" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="19" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="21" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="130" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="146" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="147" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="127" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="129" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="130" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="14" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="15" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="17" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="19" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="22" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="23" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="29" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="130" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="146" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="147" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="127" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="131" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="14" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="silos.lpr"/>
+        <Caret Line="181" Column="49" TopLine="75"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

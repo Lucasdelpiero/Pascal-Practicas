@@ -9,7 +9,8 @@
         <Filename Value="javalina.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="35" Y="142"/>
+        <TopLine Value="41"/>
+        <CursorPos X="17" Y="50"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -23,7 +24,7 @@
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="26">
+    <JumpHistory HistoryIndex="25">
       <Position>
         <Filename Value="javalina.lpr"/>
         <Caret Line="46" Column="40" TopLine="29"/>
@@ -110,10 +111,6 @@
       </Position>
       <Position>
         <Filename Value="javalina.lpr"/>
-        <Caret Line="26" Column="15" TopLine="70"/>
-      </Position>
-      <Position>
-        <Filename Value="javalina.lpr"/>
         <Caret Line="117" Column="5" TopLine="113"/>
       </Position>
       <Position>
@@ -130,7 +127,7 @@
       </Position>
       <Position>
         <Filename Value="javalina.lpr"/>
-        <Caret Line="24" Column="22" TopLine="97"/>
+        <Caret Line="142" Column="35"/>
       </Position>
     </JumpHistory>
     <RunParams>

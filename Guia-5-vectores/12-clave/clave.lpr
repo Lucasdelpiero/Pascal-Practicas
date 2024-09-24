@@ -55,6 +55,7 @@ begin
 
 
     end;
+    close(arch);
 end;
 
 procedure mayorPromedio(letra : char ;vecClave : vClave; vecProm : vProm; vecCar :vCar; vL : byte);

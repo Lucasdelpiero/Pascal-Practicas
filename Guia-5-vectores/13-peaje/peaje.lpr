@@ -53,7 +53,7 @@ begin
         recaudacion[cabina] := recaudacion[cabina] + tarifa;
         atendidos[cabina]:= atendidos[cabina] + 1;
     end;
-
+    close(arch);
 end;
 
 var

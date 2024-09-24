@@ -20,6 +20,7 @@ begin
         vector[i] := num;
     end;
     n := i;
+    close(arch);
 end;
 
 procedure escribirVector(vector : VInt32; n : byte);

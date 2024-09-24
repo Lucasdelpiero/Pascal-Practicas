@@ -84,6 +84,7 @@ begin
     vIntL := 0;
     vDivL := 0;
     leerArchivo(vInt , vIntL);
+    writeln('Los numeros del archivo son');
     escribirVector(vInt, vIntL);
     obtenerDivisores(vInt, vIntL, maxEnVector(vInt,vIntL), vDiv, vDivL);
     writeln('Los divisores de ', maxEnVector(vInt,vIntL));

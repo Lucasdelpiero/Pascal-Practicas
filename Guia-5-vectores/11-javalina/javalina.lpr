@@ -47,6 +47,7 @@ begin
         vecSeg[i] := seg;
     end;
     vl := i;
+    close(arch);
 end;
 // a)
 function superaron(vecPrim , vecSeg : vLan; vL : byte) : byte;

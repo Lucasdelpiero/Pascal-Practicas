@@ -87,8 +87,6 @@ begin
         writeln(vecClave[i],' prom: ', vecProm[i]:0:2, ' letra: ', vecCar[i])
     else
         writeln('Esa clave no existe en el sistema');
-
-
 end;
 
 var

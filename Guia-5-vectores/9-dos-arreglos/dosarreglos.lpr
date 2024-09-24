@@ -78,7 +78,7 @@ begin
     writeln('El vector del conjunto B es:');
     writevec(vectB, vectBl);
 
-
+    close(arch);
     readln();
 end.
 
