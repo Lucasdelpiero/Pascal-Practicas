@@ -1,11 +1,9 @@
 program compactar;
 type
     vInt = Array[1..16] of integer;
-    vI = Array[1..8] of integer;
 
 const
     vConst : vInt = (1,2,2,3,4,3,3,5,6,4,5,6,4,5,3,6);
-    v8 : vI = (1,2,2,3,4,3,3,5);
 
 procedure writevec(vec : vInt; vL : byte);
 var i : byte;
@@ -24,8 +22,10 @@ begin
     begin
         j := i + 1;
         num := vec[i];
-        while (j < vL) or (num <> vec[j]) do
+        while (j < vL) and (num <> vec[j]) do
         begin
+            j := j + 1;
+        end;
 
         if num = vec[j] then
         begin
@@ -38,8 +38,6 @@ begin
             end;
             vL := vL - 1;
         end;
-        j := j + 1;
-        end;
        i := i + 1;
     end;
 
@@ -47,12 +45,9 @@ end;
 
 var
     arr : vInt;
-    arr2 : vI;
     vL : byte;
-    vL2 : byte;
 begin
     arr := vConst;
-    arr2 := v8;
     vL := 16;
     writevec(arr, vl);
     comp(arr,vl);
