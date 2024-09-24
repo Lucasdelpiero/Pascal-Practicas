@@ -47,12 +47,13 @@ end;
 
 var
     arr : vInt;
+    arr2 : vI;
     vL : byte;
+    vL2 : byte;
 begin
     arr := vConst;
     arr2 := v8;
     vL := 16;
-    vl2 := 8;
     writevec(arr, vl);
     comp(arr,vl);
     writevec(arr, vl);

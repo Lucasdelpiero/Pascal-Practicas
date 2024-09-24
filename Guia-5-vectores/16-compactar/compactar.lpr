@@ -15,7 +15,7 @@ begin
     writeln();
 end;
 procedure comp(var vec : vInt;var vL : byte);
-var i, j, k, tam : byte;
+var i, j, k : byte;
     cambio : boolean;
     num : integer;
 begin
@@ -54,7 +54,6 @@ begin
     arr := vConst;
     arr2 := v8;
     vL := 16;
-    vl2 := 8;
     writevec(arr, vl);
     comp(arr,vl);
     writevec(arr, vl);

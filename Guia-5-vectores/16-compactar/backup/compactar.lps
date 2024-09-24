@@ -9,17 +9,13 @@
         <Filename Value="compactar.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="36"/>
-        <CursorPos Y="55"/>
+        <TopLine Value="43"/>
+        <CursorPos X="5" Y="55"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="compactar.lpr"/>
-        <Caret Line="55" TopLine="45"/>
-      </Position>
       <Position>
         <Filename Value="compactar.lpr"/>
         <Caret Line="23" TopLine="13"/>
@@ -135,6 +131,10 @@
       <Position>
         <Filename Value="compactar.lpr"/>
         <Caret Line="6" Column="55"/>
+      </Position>
+      <Position>
+        <Filename Value="compactar.lpr"/>
+        <Caret Line="55" TopLine="36"/>
       </Position>
     </JumpHistory>
     <RunParams>
