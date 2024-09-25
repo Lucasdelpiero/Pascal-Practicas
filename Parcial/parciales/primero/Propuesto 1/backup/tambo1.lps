@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="tambo1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="7"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="83" Column="41" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="55" Column="8" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="51" Column="19" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="52" Column="41" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="70" Column="41" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="78" Column="34" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="22" Column="26" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="9" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo1.lpr"/>
+        <Caret Line="78" Column="43" TopLine="68"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="tambo1.lpr"/>
+        <Line Value="13"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

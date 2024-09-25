@@ -9,8 +9,8 @@
         <Filename Value="clave.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="34"/>
-        <CursorPos X="40" Y="43"/>
+        <TopLine Value="54"/>
+        <CursorPos X="90" Y="43"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -25,10 +25,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="clave.lpr"/>
-        <Caret Line="51" TopLine="38"/>
-      </Position>
       <Position>
         <Filename Value="clave.lpr"/>
         <Caret Line="52" TopLine="38"/>
@@ -143,7 +139,11 @@
       </Position>
       <Position>
         <Filename Value="clave.lpr"/>
-        <Caret Line="43" Column="46" TopLine="28"/>
+        <Caret Line="43" Column="40" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="clave.lpr"/>
+        <Caret Line="46" TopLine="34"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -151,15 +151,4 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="clave.lpr"/>
-        <Line Value="46"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

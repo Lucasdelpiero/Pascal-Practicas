@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="tambo2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="84"/>
+        <CursorPos X="52" Y="86"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="tambo.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="12" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="87" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="90" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="93" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="100" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="101" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="102" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="103" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="112" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="147" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="102" Column="31" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="88" Column="12" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="99" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="147" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="144" Column="7" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="tambo2.lpr"/>
+        <Caret Line="145" Column="7" TopLine="136"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
