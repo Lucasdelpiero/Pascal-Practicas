@@ -1,0 +1,8 @@
+Lucas
+10 6 8
+Jorge
+6 4 6
+Maria
+10 10 8
+Alf
+4 6 4

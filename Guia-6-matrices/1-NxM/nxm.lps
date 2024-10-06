@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="nxm.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="72"/>
+        <CursorPos X="25" Y="88"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="6" Y="4"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="36" Column="27" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="69" Column="13" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="51" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="52" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="93" Column="36" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="68" Column="35" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="73" Column="35" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="88" Column="21" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="nxm.lpr"/>
+        <Caret Line="80" Column="49" TopLine="70"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

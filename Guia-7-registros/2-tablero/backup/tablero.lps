@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="tablero.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="tableroAjedrez"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="74"/>
+        <CursorPos Y="84"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="text.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="10" Y="3"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="29" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="30" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="31" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="23" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="text.txt"/>
+        <Caret Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="9" Column="27" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="66" Column="25" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="10" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="26" Column="17" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="23" Column="16" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="32" Column="7" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="70" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="71" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="73" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="76" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="71" Column="20" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="70" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="71" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="74" Column="38" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="76" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="70" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="71" Column="22" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="86" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="87" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="66" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="67" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="68" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="tablero.lpr"/>
+        <Caret Line="70" TopLine="56"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
