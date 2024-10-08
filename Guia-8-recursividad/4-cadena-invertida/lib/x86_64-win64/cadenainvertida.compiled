@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1488546183"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FiC:\Users\cabro\OneDrive\Desktop\Progra 1\Pascal-Practicas\Guia-8-recursividad\4-cadena-invertida\lib\x86_64-win64&quot; &quot;-FuC:\Users\cabro\OneDrive\Desktop\Progra 1\Pascal-Practicas\Guia-8-recursividad\4-cadena-invertida\&quot; &quot;-FUC:\Users\cabro\OneDrive\Desktop\Progra 1\Pascal-Practicas\Guia-8-recursividad\4-cadena-invertida\lib\x86_64-win64\&quot; &quot;-FEC:\Users\cabro\OneDrive\Desktop\Progra 1\Pascal-Practicas\Guia-8-recursividad\4-cadena-invertida\&quot; &quot;-oC:\Users\cabro\OneDrive\Desktop\Progra 1\Pascal-Practicas\Guia-8-recursividad\4-cadena-invertida\cadenainvertida.exe&quot; cadenainvertida.lpr"/>
+</CONFIG>

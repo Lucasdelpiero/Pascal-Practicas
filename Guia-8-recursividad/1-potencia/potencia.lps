@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="potencia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="potenciaenesima"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="2"/>
+        <CursorPos X="53" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="18" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="21" Column="27" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="8"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="12" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="5"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="8"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="22" Column="30" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="21" Column="57" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="22" Column="16" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="18" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="29" Column="33" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="26" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="15" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="26" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="potencia.lpr"/>
+        <Caret Line="31" TopLine="21"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
