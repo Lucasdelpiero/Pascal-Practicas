@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="raizcuadrada.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="19" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="19" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="19" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="19" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="18" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="25" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="32" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="31" Column="37" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="raizcuadrada.lpr"/>
+        <Caret Line="24" Column="39" TopLine="9"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="raizcuadrada.lpr"/>
+        <Line Value="11"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
