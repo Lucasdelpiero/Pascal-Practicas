@@ -1,4 +1,4 @@
-program matrizMinimo;
+program minimo;
 type
     m3 = Array[1..3,1..3] of real;
 const
