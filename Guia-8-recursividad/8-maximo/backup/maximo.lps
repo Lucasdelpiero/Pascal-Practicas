@@ -9,132 +9,133 @@
         <Filename Value="maximo.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="4"/>
-        <CursorPos Y="11"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="23"/>
+        <CursorPos X="11" Y="28"/>
+        <FoldState Value=" T380D,"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="51" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="54" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="20" TopLine="4"/>
+        <Caret Line="50" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="51" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="54" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="50" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="15" TopLine="4"/>
+        <Caret Line="53" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="18" TopLine="4"/>
+        <Caret Line="54" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="48" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="49" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="52" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="20" TopLine="4"/>
+        <Caret Line="48" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="51" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="52" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="48" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="20" TopLine="4"/>
+        <Caret Line="51" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="52" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="48" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="51" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="15" TopLine="4"/>
+        <Caret Line="52" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="18" TopLine="4"/>
+        <Caret Line="48" TopLine="37"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="38" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="41" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="42" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="20" TopLine="4"/>
+        <Caret Line="38" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="39" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="12" TopLine="4"/>
+        <Caret Line="42" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="14" TopLine="4"/>
+        <Caret Line="38" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="20" TopLine="4"/>
+        <Caret Line="39" TopLine="27"/>
       </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
-        <Caret Line="11" TopLine="4"/>
+        <Caret Line="33" Column="8" TopLine="27"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -142,4 +143,15 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="maximo.lpr"/>
+        <Line Value="41"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>
