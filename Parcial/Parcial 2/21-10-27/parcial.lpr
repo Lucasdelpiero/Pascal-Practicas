@@ -8,20 +8,25 @@ type
         cant : byte;
         prop : char;
     end;
-    tMat = array[1..32, 1..6] of persona;
+    tMat = array[1..3, 1..6] of persona;
     tCod = Array[1..3] of st3;
     tPrecio = array[1..3] of real;
     tNoProp = record
         apellido : st12;
         piso : byte;
     end;
-    TVnoProp = array[1..32] of tNoProp;
+    TVnoProp = array[1..3] of tNoProp;
 
 function cantOcup(edi: tMat; piso, j: byte): byte;
 var val: byte;
 begin
-    if j = 0 then
-        val := 0
+    if j = 1 then
+    begin
+        if edi[piso, j].cant <> 0 then
+            val := 1
+        else
+            val := 0;
+    end
     else
         if edi[piso, j].cant <> 0 then
             val := 1 + cantOcup(edi, piso, j - 1)
@@ -90,34 +95,40 @@ procedure leerArchivo(var edi: tMat; var pisos: byte);
 var arch : text;
     piso, dep: byte;
     car : char;
+    per : persona;
+    i, j: byte;
 begin
     assign(arch, 'ocupantes.txt'); reset(arch);
     readln(arch, pisos);
     while not eof(arch) do
     begin
-        read(arch, piso, dep);
-        with edi[pisos, dep] do
-        begin
-            read(arch, apellido);
+        read(arch, piso, dep, car);
+        read(arch, edi[piso, dep].apellido , car);
+        while car = ' ' do
             read(arch, car);
-            while car = ' ' do
-                read(arch, car);
-            readln(arch, cat, cant, prop);
-            cat := car + cat;
-            //readln(arch, apellido, cat, cant, prop);
-        end;
+        read(arch, edi[piso,dep].cat, edi[piso, dep].cant);
+        edi[piso, dep].cat := car + edi[piso,dep].cat;
+        readln(arch, car, edi[piso, dep].prop);
     end;
+
     close(arch);
 end;
 
 procedure leerCateg(var vCod: Tcod; var vPrecio : Tprecio; var nCateg: byte);
 var arch: text;
+    car : char;
 begin
     assign(arch,'categorias.txt'); reset(arch);
     while not eof(arch) do
     begin
         nCateg := nCateg + 1;
-        readln(arch, vCod[nCateg], vPrecio[nCateg]);
+        read(arch, vCod[nCateg]);
+        read(arch, car);
+        read(arch, car);
+        while car <> ' ' do
+            read(arch, car);
+
+        readln(arch, vPrecio[nCateg]);
     end;
     close(arch);
 end;
@@ -154,18 +165,23 @@ var
   vNoProp : TVnoProp;
   nNoProp : byte;
   categ : st3;
-
+  i,j: byte;
 begin
     dep := 6;
+    for i:=1 to 3 do
+        for j:=1 to 6 do
+            edi[i, j].apellido := '';
     leerArchivo(edi, pisos);
     writeln(cantPisos(edi,pisos,dep),' pisos');
     writeln('Ingrese categ a buscar cuanto pagan (PRE/STD/ECO');
     readln(categ);
     leerCateg(vCod, vPrecio, nCateg);
-    writeln(totalAbonar(categ, edi, pisos, dep, vCod, vPrecio, nCateg));
+    writeln(totalAbonar(categ, edi, pisos, dep, vCod, vPrecio, nCateg):0:2);
     writeln('Ingrese numero de dpto para buscar a los no duenios');
     readln(x);
     genVnoProp(x, vNoProp, nNoprop, edi, pisos);
     writeVec(vNoProp, nNoProp);
+
+    readln();
 end.
 

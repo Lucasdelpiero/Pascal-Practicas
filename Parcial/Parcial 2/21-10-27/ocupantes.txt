@@ -1,6 +1,6 @@
 3
 3 2 Martinez        PRE 2 S
-2 1 Molina           STD 1 N
+2 1 Molina          STD 1 N
 1 5 Romero          PRE 3 S
 3 1 Paredes         ECO 3 N
 3 4 Gonzalez        ECO 1 N

@@ -22,6 +22,7 @@ begin
         crec := 0;
 end;
 
+// Funcion hecha para devolver valor booleano sobre el crecimiento
 function esCreciente(x: word): boolean;
 var valor: word;
 begin

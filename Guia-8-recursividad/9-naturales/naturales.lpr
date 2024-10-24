@@ -33,7 +33,7 @@ begin
         esCreciente := false
 end;
 
-var x, num : word;
+var x : word;
 begin
     repeat
         writeln('Ingrese X o un cero para salir');
