@@ -25,7 +25,7 @@ end;
 function maxBien(matriz: tM; filaN, i, colN, j: byte) : real;
 var val : real;
 begin
-    if i > 1 then
+    if i <> 1 then
         if j <> 1 then  // Se mueve a columna de izquierda
             val := maxBien(matriz, filaN, i, colN, j - 1)
         else            // Se mueve a fila de arriba y la columna va al final
@@ -42,6 +42,17 @@ begin
             maxBien := val
     else
             maxBien := matriz[i, j];
+end;
+
+function maxEfi(matriz: tM; i, j, colN: byte) : real;
+begin
+    if i = 0 then
+        maxEfi := -9999
+    else
+        if j > 0 then
+    // Si llega al final
+    // Moverse izquierda
+    // Moverse arriba
 end;
 
 function hallarMax(matriz: tM;filas, columnas: byte) : real;

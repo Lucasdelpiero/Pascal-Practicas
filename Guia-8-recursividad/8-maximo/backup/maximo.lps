@@ -8,19 +8,22 @@
       <Unit>
         <Filename Value="maximo.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="23"/>
-        <CursorPos X="11" Y="28"/>
+        <TopLine Value="33"/>
+        <CursorPos Y="41"/>
         <FoldState Value=" T380D,"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\parcial.lpr"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="212"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="51" TopLine="39"/>
-      </Position>
       <Position>
         <Filename Value="maximo.lpr"/>
         <Caret Line="54" TopLine="39"/>
@@ -137,21 +140,14 @@
         <Filename Value="maximo.lpr"/>
         <Caret Line="33" Column="8" TopLine="27"/>
       </Position>
+      <Position>
+        <Filename Value="maximo.lpr"/>
+        <Caret Line="28" Column="11" TopLine="23"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="maximo.lpr"/>
-        <Line Value="41"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

@@ -35,18 +35,82 @@ begin
     cantOcup := val;
 end;
 
-function cantPisos(edi: tMat; pisos, dep: byte) : byte;
-var total : byte;
+function cantOcupados(edi: tMat; pisos, dep: byte): byte;
+var sum : byte;
 begin
-    if pisos <> 1 then
-        total := cantOcup(edi, pisos, dep) + cantOcup(edi, pisos - 1, dep);
-    cantPisos := total;
+    if dep = 0 then
+        cantOcupados := 0
+    else
+        begin
+        if edi[pisos, dep].cant = 0 then
+            sum := 0
+        else
+            sum := 1;
+
+        cantOcupados := sum + cantOcupados(edi, pisos, dep - 1);
+        end;
+end;
+
+function pisoMitadOcu(edi: tMat; pisos, dep: byte): byte ;
+var sum, cant : byte;
+begin
+    if pisos > 0 then
+    begin
+        cant := cantOcupados(edi, pisos, dep);
+        if cant >= 3 then
+            sum := 1
+        else sum := 0;
+        pisoMitadOcu := sum + pisoMitadOcu(edi, pisos - 1, dep);
+    end
+    else
+        pisoMitadOcu := 0;
+end;
+
+function cantPisos(edi: tMat; pisos, dep: byte) : byte;
+var total, sum : byte;
+begin
+
+    if pisos > 0 then
+    begin
+        total := cantOcup(edi, pisos, dep) ;
+        if total >= 3 then
+            sum := 1
+        else
+            sum := 0;
+        total := sum + cantOcup(edi, pisos - 1, dep);
+    end
+    else
+        total := 0;
+    if total >= 3 then
+        total := 1 + cantOcup(edi, pisos - 1, dep)
+    else
+        total := 0 + cantOcup(edi, pisos - 1, dep);
+
+    if total >= 3 then
+        cantPisos := 1
+    else
+        cantPisos := 0;
+end;
+
+function cantPisosBien(edi: tMat; pisos, dep: byte): byte;
+var a,b,c, d: byte;
+begin
+    a := cantOcupados(edi, 3, 6);
+    b := cantOcupados(edi, 2, 6);
+    c := cantOcupados(edi, 1, 6);
+    writeln('a-b-c: ',a,'-',b,'-',c);
+    d := pisoMitadOcu(edi, 3, 6);
+    writeln('mitad ocu: ',d);
+    { Conseguir la cantidad de dptos ocupados en 1 piso
+     si estos son mayores o iguales a 3 entonces se suma 1 o 0 y se
+     llama de nuevo con el num piso anterior
+     }
 end;
 
 function cantProp(categ: st3; edi: tMat; piso, i, dep, j: byte): byte;
 var val, pertenece: byte;
 begin
-    if edi[i,j].cat = categ then
+    if (edi[i,j].cat = categ) and (edi[i,j].prop = 'S') then
         pertenece := 1
     else
         pertenece := 0;
@@ -172,7 +236,7 @@ begin
         for j:=1 to 6 do
             edi[i, j].apellido := '';
     leerArchivo(edi, pisos);
-    writeln(cantPisos(edi,pisos,dep),' pisos');
+    writeln(pisoMitadOcu(edi,pisos,dep),' pisos');
     writeln('Ingrese categ a buscar cuanto pagan (PRE/STD/ECO');
     readln(categ);
     leerCateg(vCod, vPrecio, nCateg);

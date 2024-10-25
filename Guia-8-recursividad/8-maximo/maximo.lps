@@ -8,136 +8,21 @@
       <Unit>
         <Filename Value="maximo.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="33"/>
         <CursorPos Y="41"/>
         <FoldState Value=" T380D,"/>
         <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\parcial.lpr"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="212"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="54" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="50" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="51" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="54" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="50" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="53" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="54" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="48" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="49" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="52" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="48" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="51" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="52" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="48" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="51" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="52" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="48" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="51" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="52" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="48" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="38" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="41" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="42" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="38" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="39" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="42" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="38" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="39" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="33" Column="8" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="maximo.lpr"/>
-        <Caret Line="28" Column="11" TopLine="23"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
