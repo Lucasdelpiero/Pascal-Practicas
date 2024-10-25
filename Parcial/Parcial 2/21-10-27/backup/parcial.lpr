@@ -236,7 +236,7 @@ begin
         for j:=1 to 6 do
             edi[i, j].apellido := '';
     leerArchivo(edi, pisos);
-    writeln(cantPisosBien(edi,pisos,dep),' pisos');
+    writeln(pisoMitadOcu(edi,pisos,dep),' pisos');
     writeln('Ingrese categ a buscar cuanto pagan (PRE/STD/ECO');
     readln(categ);
     leerCateg(vCod, vPrecio, nCateg);
