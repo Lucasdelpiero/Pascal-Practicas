@@ -13,6 +13,7 @@ type
     Tgen = array[1..6] of byte;
     TMpos = array[1..100,1..100] of word;
 
+
 function cantSuperanT(T: word; mat: TMdur; n: byte): byte;
 var cant, i, j: byte;
     superan: boolean;
@@ -70,6 +71,59 @@ begin
     end;
 end;
 
+// 2
+function suma(mat: TMpos; n, i,j: byte): word;
+begin
+    if j > i then
+        suma := mat[i, j] + suma(mat, n, i, j - 1)
+    else
+        if i = j then
+            suma := mat[i, j] + suma(mat, n, i - 1, n)
+    else
+        if i = 0 then
+            suma := mat[i,j];
+end;
+
+function cantElemDiag(mat: TMpos; n: byte): byte;
+begin
+    cantElemDiag := ( ( (n * n) - n ) DIV 2) + n;
+end;
+
+function promDiag(mat: TMpos; n: byte): real;
+begin
+    promDiag := suma(mat, n, n, n) / cantElemDiag(mat,n);
+end;
+
+function colSup(mat: TMpos; n, i, j: byte): boolean;
+var prom : real;
+begin
+    prom := promDiag(mat, n);
+
+    if i = 0 then
+        colSup := false
+    else
+        if mat[i, j] <= prom then
+            colSUp := colsup(mat, n, i - 1, j)
+    else
+        colsup := true;
+end;
+
+function cantCol(mat: TMpos; n, i, j: byte): byte;
+var sum : byte;
+begin
+    if j = 0 then
+        cantCol := 0
+    else
+    begin
+        if colsup(mat, n, i, j) then
+            sum := 1
+        else
+            sum := 0;
+        cantCol := sum + cantCol(mat, n, i - 1, j - 1);
+    end;
+end;
+
+//1
 procedure leerArchivo(var Vinterpretes: TVinterpretes; var nInter: byte;  var mat: TMdur);
 var arch: text;
   i,n,gen: byte;
@@ -125,7 +179,7 @@ begin
         writeln(vec[i].cod, ' ', vec[i].gen);
 end;
 
-procedure inicializar(vec: Tgen; n: byte);
+procedure inicializar(var vec: Tgen; n: byte);  // se le quita el var y tiene alto bug
 var i: byte;
 begin
     for i := 1 to n do
@@ -144,11 +198,6 @@ begin
         writeln('El Genero ', i, ' tiene ', Vgen[i] * 3, ' canciones '); // el 3 esta mal
 end;
 
-
-
-
-
-
 var
   interpretes, interpretesSup: TVinterpretes;
   nInter, nInterSup: byte;
@@ -165,8 +214,10 @@ begin
     writeln('Artistas que la cancion de mayor duracion supera el promedio:');
     genVec(interpretes, mat, nInter, interpretesSup, nInterSup);
     mostrarVec(interpretesSup, nInterSup);
-    //writeln('Info por genero de los que ganaron un premio: ');
+    writeln('Info por genero de los que ganaron un premio: ');
     infoXgen(interpretes, nInter);
+    nmpos := 5;
+    writeln('cant col: ', cantcol(matPos, nmPos, nmPos, nmPos));
 
 
     readln();
