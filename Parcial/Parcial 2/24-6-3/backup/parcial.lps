@@ -9,157 +9,141 @@
         <Filename Value="parcial.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="129"/>
-        <CursorPos Y="68"/>
-        <FoldState Value=" T3iQ0LN"/>
-        <UsageCount Value="23"/>
+        <TopLine Value="156"/>
+        <CursorPos X="8" Y="168"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="ocupantes.txt"/>
+        <Filename Value="ranking.txt"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="2"/>
-        <UsageCount Value="23"/>
+        <CursorPos X="21" Y="3"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
-      </Unit>
-      <Unit>
-        <Filename Value="categorias.txt"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="4"/>
-        <UsageCount Value="23"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Text"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\De martin\parcial.lpr"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="196"/>
-        <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="48" TopLine="34"/>
+        <Caret Line="157" Column="64" TopLine="147"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="34"/>
+        <Caret Line="20" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="40" TopLine="34"/>
+        <Caret Line="21" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="41" TopLine="34"/>
+        <Caret Line="23" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="45" TopLine="34"/>
+        <Caret Line="24" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="46" TopLine="34"/>
+        <Caret Line="26" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="34"/>
+        <Caret Line="24" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="40" TopLine="34"/>
+        <Caret Line="26" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="41" TopLine="34"/>
+        <Caret Line="24" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="45" TopLine="34"/>
+        <Caret Line="26" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="48" TopLine="34"/>
+        <Caret Line="24" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="34"/>
+        <Caret Line="29" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="40" TopLine="34"/>
+        <Caret Line="21" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="41" TopLine="34"/>
+        <Caret Line="32" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="45" TopLine="34"/>
+        <Caret Line="157" TopLine="147"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="48" TopLine="34"/>
+        <Caret Line="20" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="34"/>
+        <Caret Line="21" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="40" TopLine="34"/>
+        <Caret Line="23" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="41" TopLine="34"/>
+        <Caret Line="24" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="42" TopLine="34"/>
+        <Caret Line="26" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="52" TopLine="36"/>
+        <Caret Line="24" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="36"/>
+        <Caret Line="26" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="52" TopLine="36"/>
+        <Caret Line="24" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="50" TopLine="36"/>
+        <Caret Line="26" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="62" TopLine="52"/>
+        <Caret Line="24" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="65" TopLine="52"/>
+        <Caret Line="29" TopLine="13"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="99" TopLine="65"/>
+        <Caret Line="21" TopLine="13"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="66" Column="27" TopLine="51"/>
+        <Caret Line="20" TopLine="13"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="62" Column="23" TopLine="53"/>
+        <Caret Line="21" TopLine="13"/>
       </Position>
       <Position>
         <Filename Value="parcial.lpr"/>
-        <Caret Line="66" Column="13" TopLine="53"/>
+        <Caret Line="23" TopLine="13"/>
       </Position>
     </JumpHistory>
     <RunParams>
