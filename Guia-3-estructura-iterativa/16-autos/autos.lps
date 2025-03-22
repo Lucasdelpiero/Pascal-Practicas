@@ -9,8 +9,7 @@
         <Filename Value="autos.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="34"/>
-        <CursorPos X="63" Y="62"/>
+        <CursorPos X="28" Y="14"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -18,7 +17,7 @@
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="32" Y="3"/>
+        <CursorPos X="7" Y="2"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>

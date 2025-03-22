@@ -13,10 +13,10 @@ begin
 
     writeln('D=deposito, R=retiro o F= fin de datos');
     writeln('Ingrese movimiento a realizar (D/R/F) :');
-    readln(resp);
-    while (upcase(resp) <> 'F') do
+    readln(resp); resp := upcase(resp);
+    while (resp <> 'F') do
     begin
-        if (upcase(resp) = 'D') then
+        if (resp = 'D') then
             begin
                 writeln('Cuanto desea depositar?');
                 readln(cant);
@@ -24,7 +24,7 @@ begin
                 writeln('Se han ingresado $', cant:0:2);
             end
         else
-            if (upcase(resp) = 'R') then
+            if (resp = 'R') then
                 begin
                     writeln('Cuanto desea retirar?');
                     readln(cant);

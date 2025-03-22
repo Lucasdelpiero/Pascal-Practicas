@@ -22,14 +22,14 @@ begin
             frec := frec + 1
         else
             begin
-                writeln('   ',anterior, '       ', frec);
+                writeln(anterior:4,frec:8);
                 frec := 1;
             end;
         anterior := num;
 
     end;
     close(arch);
-    writeln('   ',num, '       ', frec);
+    writeln(num:4, frec:8);
     readln();
 
 end.

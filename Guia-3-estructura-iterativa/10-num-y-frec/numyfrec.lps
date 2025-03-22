@@ -9,8 +9,8 @@
         <Filename Value="numyfrec.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="13"/>
-        <CursorPos X="30" Y="32"/>
+        <TopLine Value="17"/>
+        <CursorPos X="17" Y="31"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -24,7 +24,7 @@
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
+    <JumpHistory HistoryIndex="2">
       <Position>
         <Filename Value="numyfrec.lpr"/>
         <Caret Line="30" Column="5" TopLine="14"/>
@@ -32,6 +32,10 @@
       <Position>
         <Filename Value="numyfrec.lpr"/>
         <Caret Line="10" Column="33" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="numyfrec.lpr"/>
+        <Caret Line="34" Column="28" TopLine="19"/>
       </Position>
     </JumpHistory>
     <RunParams>

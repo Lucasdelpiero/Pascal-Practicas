@@ -9,16 +9,19 @@
         <Filename Value="cuentabancaria.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="36"/>
-        <CursorPos X="14" Y="48"/>
+        <CursorPos X="21" Y="27"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="1">
       <Position>
         <Filename Value="cuentabancaria.lpr"/>
         <Caret Line="46" Column="8" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="cuentabancaria.lpr"/>
+        <Caret Line="17" Column="21" TopLine="7"/>
       </Position>
     </JumpHistory>
     <RunParams>
