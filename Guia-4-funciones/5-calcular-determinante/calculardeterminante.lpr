@@ -16,8 +16,8 @@ begin
         writeln('No hay solucion al sistema')
     else
         begin
-        writeln('x: ', trunc(hallarDet(c1, y1, c2, y2)/ deter));
-        writeln('y: ' , trunc(hallarDet(x1, c1, x2, c2)/ deter));
+        writeln('x: ', (hallarDet(c1, y1, c2, y2)/ deter):8:2);
+        writeln('y: ' , (hallarDet(x1, c1, x2, c2)/ deter):8:2);
         end;
 
     readln();
