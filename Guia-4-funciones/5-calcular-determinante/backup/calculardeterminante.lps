@@ -9,12 +9,13 @@
         <Filename Value="calculardeterminante.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="65" Y="9"/>
+        <TopLine Value="13"/>
+        <CursorPos X="13" Y="21"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="6">
       <Position>
         <Filename Value="calculardeterminante.lpr"/>
         <Caret Line="9" Column="15" TopLine="2"/>
@@ -30,6 +31,18 @@
       <Position>
         <Filename Value="calculardeterminante.lpr"/>
         <Caret Line="2" Column="54"/>
+      </Position>
+      <Position>
+        <Filename Value="calculardeterminante.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="calculardeterminante.lpr"/>
+        <Caret Line="4" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="calculardeterminante.lpr"/>
+        <Caret Line="19" Column="66" TopLine="6"/>
       </Position>
     </JumpHistory>
     <RunParams>

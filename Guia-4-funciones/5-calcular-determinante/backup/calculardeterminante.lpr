@@ -1,21 +1,27 @@
 program  calculardeterminante;
-function determinante4x4(a,b,d,e : integer): integer ;
+function hallarDet(a,b,d,e : integer): integer ;
 begin
-  determinante4x4 := a*e - b*d ;
+  hallarDet := a*e - b*d ;
 end;
 
-var a, b, d, e : integer;
+
+var x1, y1, c1, x2, y2, c2, deter : integer;
 begin
-    writeln('Se le pediran ingresar los dayos de x1, y1, x2 e y2');
-    writeln('Ingrese x1:');
-    readln(a);
-    writeln('Ingrese y1:');
-    readln(b);
-    writeln('Ingrese x2:');
-    readln(d);
-    writeln('Ingrese y2:');
-    readln(e);
-    writeln('El determinante es: ', determinante4x4(a, b, d, e));
+    writeln('Ingrese x1, y1 y primer el termino independiente');
+    readln(x1, y1, c1);
+    writeln('Ingrese x2, y2 y segundo el termino independiente');
+    readln(x2, y2, c2);
+    deter := hallarDet(x1, y1, x2, y2);
+    if deter = 0 then       // La 2da ecuacion no tiene solución
+        writeln('No hay solucion al sistema')
+    else
+        begin
+        writeln('x: ', trunc(hallarDet(c1, y1, c2, y2)/ deter));
+        writeln('y: ' , trunc(hallarDet(x1, c1, x2, c2)/ deter));
+        end;
+
+
+    readln();
 end.
 
 {
@@ -26,8 +32,10 @@ X= se calcula: x= a*e – d*b
 Aplicarlo para los siguientes sistemas de ecuaciones:
 2x + 3y = 5
 3x -2y = 1
+
 6x + 3y = 12
 2x + y = 1
+
 4x + 1y = 8
 6x + 3y = 12
 }
