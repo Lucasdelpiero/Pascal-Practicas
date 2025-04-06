@@ -3,23 +3,15 @@ function aleatorio(limInf, limSup : integer) : integer ;
 var aux, diferencia : integer;
 begin
   diferencia := abs(abs(limSup) - abs(limInf));
-
-  aux := limInf + limSup;
-  aux:= aux + 4 * limSup + 3 * limInf;
-
-  while aux > diferencia do
-    aux := aux - diferencia + 2;
-  while aux < -diferencia do
-    aux := aux + diferencia - 3;
-
-  aleatorio := aux;
-
+  aux := random(diferencia + 1);
+  aleatorio := aux + limInf;
 
 end;
 
 
     var limInf, limSup : integer;
 begin
+    randomize();
     writeln('Vamos a buscar un numero aleatorio');
     writeln('Ingrese el limite inferior y luego el superior');
     readln(limInf, limSup);
