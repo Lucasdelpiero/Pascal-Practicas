@@ -1,8 +1,8 @@
 program tarjetadesc;
 // Desc Otros
-function tieneDescO(tipo : char; dia: byte; monto : real) : boolean;
+function tieneDescO(tipo : char; dia: byte; monto: real) : boolean;
 begin
-    if (upcase(tipo) = 'O') and (monto > 300) then
+    if (tipo = 'O') and (monto > 300) then
         case dia of
             10,20,30: tieneDescO := true;
         end
@@ -10,18 +10,18 @@ begin
         tieneDescO := false;
 end;
 // Desc Combustible
-function tieneDescC(tipo : char; dia : byte; monto: real) : boolean;
+function tieneDescC(tipo : char; dia : byte) : boolean;
 begin
-    if(upcase(tipo) = 'C') and (dia > 15) then
+    if(tipo = 'C') and (dia > 15) then
         tieneDescC := true
     else
         tieneDescC := false;
 
 end;
 // Desc Supermercado
-function tieneDescS(tipo : char; dia : byte; monto: real) : boolean;
+function tieneDescS(tipo : char; dia : byte) : boolean;
 begin
-    if(upcase(tipo) = 'S') and (dia < 15) then
+    if(tipo = 'S') and (dia < 15) then
         tieneDescS := true
     else
         tieneDescS := false;
@@ -34,10 +34,10 @@ begin
     if tieneDescO(tipo, dia, monto) then
         monto := monto * 0.95
     else
-        if tieneDescC(tipo, dia, monto) then
+        if tieneDescC(tipo, dia) then
             monto := monto * 0.9
     else
-        if tieneDescS(tipo, dia, monto) then
+        if tieneDescS(tipo, dia) then
             monto := monto * 0.85;
 
     descuento := monto;
@@ -67,8 +67,9 @@ begin
         montoTConDesc := 0;
         readln(arch, cliente);
         readln(arch, tipo);
+        tipo := upcase(tipo);
 
-        while upcase(tipo) <> 'F' do
+        while tipo <> 'F' do
         begin
             readln(arch, dia);
             readln(arch, monto);
@@ -81,14 +82,15 @@ begin
             if tieneDescO(tipo, dia, monto) then
                 clienteDescO := true
             else
-                if tieneDescS(tipo, dia, monto) then
+                if tieneDescS(tipo, dia) then
                     clienteDescS := true
             else
-                if tieneDescC(tipo, dia, monto) then
+                if tieneDescC(tipo, dia) then
                     clienteDescC := true;
 
 
            readln(arch, tipo);
+           tipo := upcase(tipo);
         end;     // Termina con un cliente
 
 
@@ -100,14 +102,13 @@ begin
             if (not clienteDescS) and (not clienteDescC) and (not clienteDescO) then
                 writeln(cliente,' abono $', montoT:0:2,  ', no recibio ningun descuento');
 
-        // b
-        writeln(clientesAhorradores, ' clientes recibieron descuentos en los 3 rubros');
-
         // c)
         writeln(cliente, ' se ahorro $', (montoT - montoTConDesc):0:2);
 
     end;
 
+    // b
+    writeln(clientesAhorradores, ' clientes recibieron descuentos en los 3 rubros');
     readln();
 end.
 
