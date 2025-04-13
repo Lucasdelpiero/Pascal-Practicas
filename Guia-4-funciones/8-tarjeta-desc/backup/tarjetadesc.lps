@@ -8,140 +8,154 @@
       <Unit>
         <Filename Value="tarjetadesc.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos Y="90"/>
-        <UsageCount Value="24"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="16" Y="9"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="2" Y="24"/>
-        <UsageCount Value="24"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="4" Y="3"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\..\..\..\..\AppData\Local\Temp\19d75a4c-954f-44d9-b962-e094ddf93c58_8-tarjeta-desc.zip.c58\8-tarjeta-desc\tarjetadesc.lpr"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="113"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\..\AppData\Local\Temp\604c7921-c8ed-416d-ae1d-bbbba2abe441_ej8.zip.441\ej8\ej9.lpr"/>
+        <UnitName Value="ej8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="27">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="67" TopLine="57"/>
+        <Caret Line="33" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="68" TopLine="57"/>
+        <Caret Line="39" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="69" TopLine="57"/>
+        <Caret Line="44" TopLine="35"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="70" TopLine="57"/>
+        <Caret Line="23" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="72" TopLine="57"/>
+        <Caret Line="25" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="74" TopLine="58"/>
+        <Caret Line="26" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="75" TopLine="59"/>
+        <Caret Line="27" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="77" TopLine="61"/>
+        <Caret Line="33" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="78" TopLine="62"/>
+        <Caret Line="39" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="82" TopLine="72"/>
+        <Caret Line="44" TopLine="35"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="83" TopLine="72"/>
+        <Caret Line="23" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="92" TopLine="82"/>
+        <Caret Line="25" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="93" TopLine="82"/>
+        <Caret Line="26" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="72" TopLine="62"/>
+        <Caret Line="27" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="74" TopLine="62"/>
+        <Caret Line="33" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="66" TopLine="62"/>
+        <Caret Line="39" TopLine="24"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="67" TopLine="62"/>
+        <Caret Line="44" TopLine="35"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="68" TopLine="62"/>
+        <Caret Line="25" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="69" TopLine="62"/>
+        <Caret Line="44" Column="48" TopLine="35"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="70" TopLine="62"/>
+        <Caret Line="20" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="72" TopLine="62"/>
+        <Caret Line="21" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="74" TopLine="62"/>
+        <Caret Line="22" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="75" TopLine="62"/>
+        <Caret Line="24" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="77" TopLine="74"/>
+        <Caret Line="26" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="78" TopLine="74"/>
+        <Caret Line="27" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="82" TopLine="74"/>
+        <Caret Line="28" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="83" TopLine="74"/>
+        <Caret Line="66"/>
       </Position>
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="92" TopLine="76"/>
+        <Caret Line="87" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetadesc.lpr"/>
+        <Caret Line="54" Column="6" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetadesc.lpr"/>
+        <Caret Line="6" Column="21"/>
       </Position>
     </JumpHistory>
     <RunParams>

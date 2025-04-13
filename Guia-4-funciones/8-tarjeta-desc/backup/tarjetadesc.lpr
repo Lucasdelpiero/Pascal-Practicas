@@ -1,116 +1,70 @@
 program tarjetadesc;
-// Desc Otros
-function tieneDescO(tipo : char; dia: byte; monto: real) : boolean;
+type st6 = string[6];
+
+procedure leerArchivo(N: byte);
+var
+    dia, nDesTres, i: byte;
+    monto, subtotal, descTot: real;
+    arch: text;
+    tipo: char;
+    cod: st6;
+    descO, descC, descS: boolean;
 begin
-    if (tipo = 'O') and (monto > 300) then
-        case dia of
-            10,20,30: tieneDescO := true;
-        end
-    else
-        tieneDescO := false;
-end;
-// Desc Combustible
-function tieneDescC(tipo : char; dia : byte) : boolean;
-begin
-    if(tipo = 'C') and (dia > 15) then
-        tieneDescC := true
-    else
-        tieneDescC := false;
-
-end;
-// Desc Supermercado
-function tieneDescS(tipo : char; dia : byte) : boolean;
-begin
-    if(tipo = 'S') and (dia < 15) then
-        tieneDescS := true
-    else
-        tieneDescS := false;
-
-end;
-
-// Funcion descuento llama a las otras 3
-function descuento(tipo : char; dia : byte; monto : real) : real;
-begin
-    if tieneDescO(tipo, dia, monto) then
-        monto := monto * 0.95
-    else
-        if tieneDescC(tipo, dia) then
-            monto := monto * 0.9
-    else
-        if tieneDescS(tipo, dia) then
-            monto := monto * 0.85;
-
-    descuento := monto;
-
-end;
-
-    var
-        arch : text;
-        cliente : integer;
-        tipo: char;
-        monto, montoT, montoTConDesc : real;
-        dia, clientesAhorradores : byte;
-        clienteDescO, clienteDescS, clienteDescC : boolean;
-begin
-    montoT := 0;
-    montoTConDesc := 0;
-    clientesAhorradores := 0;
-    assign(arch,'datos.txt');
-    reset(arch);
-
-    while not eof(arch) do
+    nDesTres := 0;
+    assign(arch,'datos.txt'); reset(arch);
+    for i:=1 to N do
     begin
-        clienteDescO := false;
-        clienteDescS := false;
-        clienteDescC := false;
-        montoT := 0;
-        montoTConDesc := 0;
-        readln(arch, cliente);
-        readln(arch, tipo);
-        tipo := upcase(tipo);
+        descO := false; descC := false; descS  := false; descTot := 0; subtotal := 0;
+        readln(arch, cod);
+        readln(arch, tipo); tipo := upcase(tipo);
 
         while tipo <> 'F' do
         begin
-            readln(arch, dia);
-            readln(arch, monto);
-
-            montoT := montoT + monto;
-            montoTConDesc := montoTConDesc + descuento(tipo, dia, monto);
-
-
-            // Por cada compra analiza si tiene descuento
-            if tieneDescO(tipo, dia, monto) then
-                clienteDescO := true
+            readln(arch, dia); readln(arch, monto);
+            subtotal := subtotal + monto;
+            if (tipo = 'O') and (monto > 300) and ( dia in [10,20,30]) then
+            begin
+                descO := true;
+                descTot := descTot + monto * 0.05;
+            end
             else
-                if tieneDescS(tipo, dia) then
-                    clienteDescS := true
+                if (tipo = 'C') and (dia > 15) then
+                begin
+                    descC := true;
+                    descTot := descTot + monto * 0.1;
+                end
             else
-                if tieneDescC(tipo, dia) then
-                    clienteDescC := true;
+                if (tipo = 'S') and ( dia < 15) then
+                begin
+                    descS := true;
+                    descTot := descTot + monto * 0.15;
+                end;
+            readln(arch, tipo);  tipo := upcase(tipo);
+        end;
+        if (not descO) and (not descC) and (not descS) then
+            writeln(cod,' sin desc: ', subtotal:10:2);
 
+        if descO and descC and descS then
+            nDesTres := nDestres + 1;
 
-           readln(arch, tipo);
-           tipo := upcase(tipo);
-        end;     // Termina con un cliente
-
-
-
-        // a
-        if clienteDescS and clienteDescC and clienteDescO then
-            clientesAhorradores := clientesAhorradores + 1
-        else
-            if (not clienteDescS) and (not clienteDescC) and (not clienteDescO) then
-                writeln(cliente,' abono $', montoT:0:2,  ', no recibio ningun descuento');
-
-        // c)
-        writeln(cliente, ' se ahorro $', (montoT - montoTConDesc):0:2);
-
+        writeln(cod,' ahorro: ', descTot:10:2);
     end;
+    writeln('Hay ', nDesTres,' que tuvieron los 3 descuentos');
+    close(arch);
+end;
 
-    // b
-    writeln(clientesAhorradores, ' clientes recibieron descuentos en los 3 rubros');
-    readln();
+var
+    n: byte;
+
+
+begin
+  writeln('ingrese N clientes'); readln(N);
+  leerArchivo(N);
+
+  readln();
 end.
+
+
 
 {
  Ej 8) En un archivo de texto se registraron las compras de N titulares de tarjetas de crédito de la siguiente
@@ -131,3 +85,4 @@ c) Informar cuánto ahorró cada cliente.
 En la solución debe desarrollar la función Descuento, que a partir del tipo de compra, día y monto
 devuelva el correspondiente descuento
 }
+
