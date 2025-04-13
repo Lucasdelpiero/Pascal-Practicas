@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="alquileres.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="109"/>
+        <CursorPos Y="124"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="alquileres.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="9" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="13">
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="60" Column="17" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="13" Column="18" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="76" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="69" Column="40" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="125" Column="14" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="121" Column="78" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="62" Column="40" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="122" Column="42" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="57" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="56" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="57" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="56" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="52" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="alquileres.lpr"/>
+        <Caret Line="12" Column="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

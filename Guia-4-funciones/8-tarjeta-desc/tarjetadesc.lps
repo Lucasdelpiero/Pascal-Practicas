@@ -8,7 +8,6 @@
       <Unit>
         <Filename Value="tarjetadesc.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos Y="90"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
@@ -16,14 +15,29 @@
       <Unit>
         <Filename Value="datos.txt"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="2" Y="24"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\..\AppData\Local\Temp\19d75a4c-954f-44d9-b962-e094ddf93c58_8-tarjeta-desc.zip.c58\8-tarjeta-desc\tarjetadesc.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="113"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\..\AppData\Local\Temp\604c7921-c8ed-416d-ae1d-bbbba2abe441_ej8.zip.441\ej8\ej9.lpr"/>
+        <UnitName Value="ej8"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="27">
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
         <Caret Line="67" TopLine="57"/>
@@ -135,14 +149,6 @@
       <Position>
         <Filename Value="tarjetadesc.lpr"/>
         <Caret Line="92" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetadesc.lpr"/>
-        <Caret Column="2" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetadesc.lpr"/>
-        <Caret Line="24" Column="8" TopLine="64"/>
       </Position>
     </JumpHistory>
     <RunParams>
