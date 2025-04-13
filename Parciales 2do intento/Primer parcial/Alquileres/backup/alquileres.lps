@@ -87,15 +87,4 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="alquileres.lpr"/>
-        <Line Value="124"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

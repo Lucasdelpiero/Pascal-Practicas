@@ -9,7 +9,7 @@ type
 procedure leerArchivo(var vDias, vNclientes: vw; var vRec, vPorcVip: vr; var vN: byte);
 var
     tipo: char;
-    precio, monto, descTotal: real;
+    precio, descTotal: real;
     carpa : word;
     dias, i, pas: byte;
     arch: text;

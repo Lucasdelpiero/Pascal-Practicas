@@ -120,7 +120,7 @@ var
 begin
     leerArchivo(vDias, vNclientes, vRec, vPorcVip, vN);
     writeln('El pasillo con menos dias alquilados es ', menosAcum(vDias, vRec, vN));  // a)
-    promPasVip(vNclientes, vRec, vPorcVip, vN);                                                 // b)
+    promPasVip(vNclientes, vRec, vPorcVip, vN);                                       // b)
     primerPas(vPorcVip, vN);                                                          // c)
 
     readln();
