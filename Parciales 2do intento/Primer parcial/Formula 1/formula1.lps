@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="formula1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="147"/>
+        <CursorPos X="9" Y="100"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="37" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="59" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="60" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="61" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="63" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="64" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="57" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="59" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="60" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="61" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="63" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="64" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="57" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="59" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="60" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="61" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="63" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="64" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="57" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="88" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="87" Column="42" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="89" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="110" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="112" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="114" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="112" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="114" Column="30" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="117" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="112" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="135" Column="51" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="formula1.lpr"/>
+        <Caret Line="99" Column="24" TopLine="86"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
