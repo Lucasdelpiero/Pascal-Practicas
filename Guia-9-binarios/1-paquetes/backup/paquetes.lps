@@ -9,77 +9,13 @@
         <Filename Value="paquetes.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="186"/>
-        <CursorPos X="29" Y="195"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="178"/>
+        <CursorPos X="23" Y="196"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="85" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="85" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="87" Column="15" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="85" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="87" Column="10" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="85" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="83" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="83" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="85" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="86" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
-        <Caret Line="83" TopLine="76"/>
-      </Position>
       <Position>
         <Filename Value="paquetes.lpr"/>
         <Caret Line="85" TopLine="76"/>
@@ -114,10 +50,6 @@
       </Position>
       <Position>
         <Filename Value="paquetes.lpr"/>
-        <Caret Line="173" Column="22" TopLine="184"/>
-      </Position>
-      <Position>
-        <Filename Value="paquetes.lpr"/>
         <Caret Line="164" Column="27" TopLine="154"/>
       </Position>
       <Position>
@@ -135,6 +67,74 @@
       <Position>
         <Filename Value="paquetes.lpr"/>
         <Caret Line="195" Column="45" TopLine="186"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="238" Column="50" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="178" Column="15" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="180" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="181" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="182" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="178" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="180" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="181" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="176" Column="19" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="179" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="180" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="181" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="177" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="179" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="224" Column="82" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="278" Column="28" TopLine="263"/>
+      </Position>
+      <Position>
+        <Filename Value="paquetes.lpr"/>
+        <Caret Line="281" Column="5" TopLine="275"/>
       </Position>
     </JumpHistory>
     <RunParams>

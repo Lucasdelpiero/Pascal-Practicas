@@ -154,28 +154,54 @@ begin
 end;
 
 // Comienza resolucion de ejercicios
-
-function pesoProm(vec: VP; vn: byte): real;
+function pesoProm(var arch: TP): real;
 var pesoTotal: real;
-    i: byte;
+    cont: byte;
+    R : RP;
 begin
     pesoTotal := 0;
-    for i := 1 to vn do
-        pesoTotal := pesoTOtal + vec[i].peso;
-    pesoProm := pesoTotal / vn;
+    cont := 0;
+    reset(arch);
+    read(arch, R);
+    while not eof(arch) do
+        begin
+        pesoTotal := pesoTotal + R.peso;
+        cont := cont + 1;
+        read(arch, R);
+        end;
+    pesoTotal := pesoTotal + R.peso; //El ultimo registro ya es EOF asi que no los suma dentro
+    cont := cont + 1;                // del loop asi que hay que hacerlo luego afuera
+    pesoProm := pesoTotal / cont;
 end;
 
-function totalAseg(vec: VP; vn: byte): real;
+function totalAsegMal(vec: VP; vn: byte): real;
 var total: real;
     i: byte;
 begin
     total := 0;
     for i:=1 to vn do
         total := total + vec[i].maseg;
-    totalAseg := total;
+    totalAsegMal := total;
+end;
+function totalAseg(var arch: TP): real;
+var total: real;
+    R : RP;
+begin
+    total := 0;
+    reset(arch);
+    read(arch, R);
+    while not eof(arch) do
+        begin
+        total := total + R.maseg;
+        read(arch, R);
+        end;
+    totalAseg := total + R.maseg; // El ultimo no lo agarra
+
 end;
 
-procedure listado(vPaq: VP; vn: byte; vdes: VS);
+
+
+procedure listadoMal(vPaq: VP; vn: byte; vdes: VS);
 var cont: VW;
     i, dest: byte;
 begin
@@ -187,7 +213,7 @@ begin
         cont[dest] := cont[dest] + 1;
     end;
 
-    writeln('Destino             Cantidad de paquetes');
+    writeln('       Destino         Cantidad de paquetes');
     for i:=1 to 30 do
     begin
         if cont[i] <> 0 then
@@ -195,32 +221,63 @@ begin
             writeln(vdes[i]:15,' ', cont[i]:15);
         end;
     end;
+end;
 
+procedure listado(var archP: TP; var archD: TD);
+var cont: VW;
+    i, dest: byte;
+    regP : RP;
+    regD : RD;
+begin
+    for i:=1 to 30 do
+        cont[i] := 0;
 
+    reset(archP);
+    read(archP, regP);
+    while not eof(archP) do
+        begin
+        dest := regP.cdest;
+        cont[dest] := cont[dest] + 1;
+        read(archP, regP);
+        end;
+    writeln('       Destino         Cantidad de paquetes');
+    reset(archD);
+    read(archD, regD);
+    i := 1;
+    while not eof(archD) do
+        begin
+            if cont[i] > 0 then
+                writeln(regD.desc:15,' ', cont[i]:15);
+            i := i + 1;
+            read(archD, regD);
+        end;
 end;
 
 var
     aPaq: TP;
     aDes: TD;
-    vPaq: VP;
-    vn: byte;
-    vDes: VS;
+    vPaq: VP;   // Sin usar vectores
+    vn: byte;   // Sin usar vectores
+    vDes: VS;   // Sin usar vectores
 
 begin
     assign(aPaq, 'PAQUETES.DAT');
     //cargaPaquetes(aPaq);        // Crea archivo por 1era vez
     //listadoPaquetes(aPaq);
-    cargavec(aPaq, vPaq, vn);
-    //listadovec(vPaq, vn);
+    cargavec(aPaq, vPaq, vn);  // No hay que usar vectores en archivos binarios
+    //listadovec(vPaq, vn);      // No hay que usar vectores en archivos binarios
     assign(aDes, 'DESTINO.DAT');
     //cargaDest(aDes);           // Crea archivo por 1era vez
     //listadoDest(aDes);
-    cargavecdest(aDes, vDes);
-    //listadovecdest(vDes);
+    //cargavecdest(aDes, vDes); // No hay que usar vectores en archivos binarios
+    //listadovecdest(vDes);     // No hay que usar vectores en archivos binarios
 
-    writeln('Peso prom de paquetes: ', pesoProm(vPaq, vn):8:2); // a
-    writeln('Total asegurado: ', totalAseg(vPaq, vn):12:2);
-    listado(vPaq, vn, vdes);
+    writeln('Peso prom de paquetes: ':25, pesoProm(aPaq):8:2); // a
+    writeln('Total asegurado: ':25, totalAsegMal(vPaq, vn):12:2);
+    writeln('Total asegurado: ':25, totalAseg(aPaq):12:2); // b
+    writeln();
+    //listadoMal(vPaq, vn, vdes); // Mal, no hay que usar vectores en archivos binarios
+    listado(aPaq, aDes);
     readln();
 end.
 
