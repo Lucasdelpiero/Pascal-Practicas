@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="excursion.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="92"/>
+        <CursorPos X="41" Y="102"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="EXCURSION.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="19" Y="5"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="BOLETERIA.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="8" Y="7"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="68" Column="14" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="66" Column="37" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="42" Column="13" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="31" Column="17" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="30" Column="18" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="32" Column="16" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="EXCURSION.txt"/>
+        <Caret Line="5" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="43" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="67" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="68" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="69" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="EXCURSION.txt"/>
+        <Caret Line="5" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="39" Column="24" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="74" Column="49" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="75" Column="34" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="82" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="84" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="86" Column="27" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="115" Column="19" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="113" Column="18" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="147" Column="45" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="130" Column="24" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="140" Column="30" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="30" Column="13" TopLine="158"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="121" Column="75" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="135" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="136" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="137" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="153" TopLine="140"/>
+      </Position>
+      <Position>
+        <Filename Value="excursion.lpr"/>
+        <Caret Line="155" Column="39" TopLine="141"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,5 @@
+SIE 10000 8000 Sierra dl pad
+LAG 15000 14000 Laguna dl pad
+CIT 20000 25000 City tour mdq
+BAR 40000 38000 Viaje en barco
+ZZZ 0 0 Ninguna
