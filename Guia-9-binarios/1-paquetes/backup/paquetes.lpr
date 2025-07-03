@@ -1,5 +1,6 @@
 program paquetes;
 const MAX = 100;
+    CODE_IMPO = 9999;
 type
     st15= string[15];
     RP = record
@@ -54,21 +55,19 @@ var
   i: byte;
 begin
     reset(arch);
-    for i:= 1 to 15 do
-    begin
-        read(arch,R);
+    read(arch, R);
+    i := 1 ;
+    while not eof(arch) do
         with R do
         begin
-            writeln('== Paquete', i,' ==');
-            writeln('Ingrese cod'); writeln(cod);
-            writeln('Ingrese peso'); writeln(peso:6:2);
-            writeln('Ingrese cdest'); writeln(cdest);
-            writeln('Ingrese maseg'); writeln(maseg:10:2);
-
-
+        writeln('== Paquete ':20, i,' ==');
+        write('Cod: ':15); writeln(cod:10);
+        write('Peso: ':15); writeln(peso:10:2);
+        write('Cdest: ':15); writeln(cdest:10);
+        write('Maseg: ':15); writeln(maseg:10:2);
+        read(arch, R);  // Como se saltea el ultimo (centinela, no hace falta ponerlo
+        i := i + 1;     // al final escribiendo de vuelta
         end;
-    end;
-
 end;
 
 procedure cargaVec(var arch: TP;var vec: VP;var vn: byte);
@@ -169,8 +168,8 @@ begin
         cont := cont + 1;
         read(arch, R);
         end;
-    pesoTotal := pesoTotal + R.peso; //El ultimo registro ya es EOF asi que no los suma dentro
-    cont := cont + 1;                // del loop asi que hay que hacerlo luego afuera
+    // El ultimo objeto del archivo es el centinela que no se tiene en cuenta
+    // asi que el algoritmo sale elegantemente
     pesoProm := pesoTotal / cont;
 end;
 
@@ -195,7 +194,7 @@ begin
         total := total + R.maseg;
         read(arch, R);
         end;
-    totalAseg := total + R.maseg; // El ultimo no lo agarra
+    totalAseg := total ;
 
 end;
 
@@ -263,8 +262,8 @@ var
 begin
     assign(aPaq, 'PAQUETES.DAT');
     //cargaPaquetes(aPaq);        // Crea archivo por 1era vez
-    //listadoPaquetes(aPaq);
-    cargavec(aPaq, vPaq, vn);  // No hay que usar vectores en archivos binarios
+    listadoPaquetes(aPaq);
+    //cargavec(aPaq, vPaq, vn);  // No hay que usar vectores en archivos binarios
     //listadovec(vPaq, vn);      // No hay que usar vectores en archivos binarios
     assign(aDes, 'DESTINO.DAT');
     //cargaDest(aDes);           // Crea archivo por 1era vez
@@ -273,7 +272,7 @@ begin
     //listadovecdest(vDes);     // No hay que usar vectores en archivos binarios
 
     writeln('Peso prom de paquetes: ':25, pesoProm(aPaq):8:2); // a
-    writeln('Total asegurado: ':25, totalAsegMal(vPaq, vn):12:2);
+    //writeln('Total asegurado: ':25, totalAsegMal(vPaq, vn):12:2); // No usar vectores
     writeln('Total asegurado: ':25, totalAseg(aPaq):12:2); // b
     writeln();
     //listadoMal(vPaq, vn, vdes); // Mal, no hay que usar vectores en archivos binarios
