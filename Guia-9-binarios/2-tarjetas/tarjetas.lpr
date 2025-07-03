@@ -1,5 +1,6 @@
 program tarjetas;
 const MAX = 100;
+    COD_IMPO = 999;
 type
     st32 = string[32];
     VW = array[1..MAX] of word;
@@ -41,13 +42,14 @@ var
 begin
     vn := 0;
     reset(arch);
-    while not eof(arch) do
+    read(arch, temp);
+    while temp.num <> COD_IMPO  do
     begin
-        read(arch, temp);
         vn := vn + 1;
         vec[vn] := temp.num;
         writeln('Num: ', temp.num, ' Tope: ', temp.tope:12:2,' Gasto: ', temp.gastoMes:12:2,
         ' Nom: ',temp.nom);
+        read(arch, temp);
     end;
 end;
 
@@ -99,6 +101,8 @@ begin
                 write(archR, rechazado);
             end;
     end;
+    rechazado.cod := COD_IMPO; rechazado.num := COD_IMPO; rechazado.monto:= COD_IMPO;
+    write(archR, rechazado); // Agrega centinela al archivo de rechazados
     close(archR);
 end;
 
@@ -108,10 +112,11 @@ begin
     reset(arch);
     writeln();
     writeln('RECHAZADOS:');
-    while not eof(arch) do
+    read(arch, temp);
+    while temp.cod <> COD_IMPO do
     begin
-        read(arch, temp);
         writeln('Num: ',temp.num, ' Cod: ', temp.cod, ' Monto: ', temp.monto:12:2);
+        read(arch, temp);
     end;
     writeln();
 end;

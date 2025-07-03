@@ -1,5 +1,6 @@
 program tarjetas;
 const MAX = 100;
+    COD_IMPO = 999;
 type
     st32 = string[32];
     VW = array[1..MAX] of word;
@@ -41,13 +42,14 @@ var
 begin
     vn := 0;
     reset(arch);
-    while not eof(arch) do
+    read(arch, temp);
+    while temp.num <> CODE_IMPO  do
     begin
-        read(arch, temp);
         vn := vn + 1;
         vec[vn] := temp.num;
         writeln('Num: ', temp.num, ' Tope: ', temp.tope:12:2,' Gasto: ', temp.gastoMes:12:2,
         ' Nom: ',temp.nom);
+        read(arch, temp);
     end;
 end;
 
@@ -99,6 +101,8 @@ begin
                 write(archR, rechazado);
             end;
     end;
+    rechazado.cod := COD_IMPO; rechazado.num := COD_IMPO; rechazado.monto:= COD_IMPO;
+    write(archR, rechazado); // Agrega centinela al archivo de rechazados
     close(archR);
 end;
 
@@ -108,10 +112,11 @@ begin
     reset(arch);
     writeln();
     writeln('RECHAZADOS:');
-    while not eof(arch) do
+    read(arch, temp);
+    while temp.cod <> COD_IMPO do
     begin
-        read(arch, temp);
         writeln('Num: ',temp.num, ' Cod: ', temp.cod, ' Monto: ', temp.monto:12:2);
+        read(arch, temp);
     end;
     writeln();
 end;
@@ -132,3 +137,21 @@ begin
     readln();
 end.
 
+{
+Ej 2) Un Banco registra en TARJETAS.DAT el movimiento de las tarjetas de crédito de sus usuarios.
+# NUMERO de TARJETA (1er campo de secuencia, clave primaria)
+# NOMBRE del PROPIETARIO
+# TOPE
+# GASTO del MES (hasta el momento)
+Además, se van ingresando (desde teclado ó archivo de texto) las compras con los siguientes datos:
+- Número de Tarjeta (puede repetirse)
+- Monto
+- Código de operación
+Procesar los datos, actualizando los gastos del mes, siempre que no supere el monto tope, en caso
+contrario, rechazarlo y grabar en un archivo RECHAZADOS.DAT con la siguiente información:
+# NUMERO de TARJETA
+# CODIGO DE OPERACION
+# MONTO
+Sugerencia: para obtener la dirección relativa y acceder en forma directa al archivo TARJETAS, descargar
+del mismo los números de tarjeta sobre un arreglo (tabla).
+}

@@ -9,8 +9,8 @@
         <Filename Value="tarjetas.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="112"/>
-        <CursorPos X="34" Y="126"/>
+        <TopLine Value="36"/>
+        <CursorPos X="26" Y="46"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -18,7 +18,7 @@
         <Filename Value="TARJETAS.txt"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="14"/>
+        <CursorPos X="14" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
@@ -34,30 +34,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="tarjetas.lpr"/>
-        <Caret Line="84" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="COMPRAS.txt"/>
-        <Caret Column="13"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetas.lpr"/>
-        <Caret Line="80" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetas.lpr"/>
-        <Caret Line="81" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetas.lpr"/>
-        <Caret Line="83" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="tarjetas.lpr"/>
-        <Caret Line="84" TopLine="74"/>
-      </Position>
       <Position>
         <Filename Value="tarjetas.lpr"/>
         <Caret Line="85" TopLine="74"/>
@@ -153,6 +129,30 @@
       <Position>
         <Filename Value="tarjetas.lpr"/>
         <Caret Line="109" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="51" Column="26" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="46" Column="10" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="3" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="14" Column="29"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="51" Column="36" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="tarjetas.lpr"/>
+        <Caret Line="116" Column="31" TopLine="106"/>
       </Position>
     </JumpHistory>
     <RunParams>
