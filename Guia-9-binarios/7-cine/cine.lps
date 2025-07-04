@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="cine.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="169"/>
+        <CursorPos X="31" Y="181"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="SALAS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PELICULAS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="11" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="TITULOS.txt"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="148"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="162" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="164" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="165" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="167" TopLine="160"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="170" TopLine="160"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="212" TopLine="203"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="232" TopLine="223"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="151" Column="75" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="cine.lpr"/>
+        <Caret Line="126" Column="13" TopLine="118"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
