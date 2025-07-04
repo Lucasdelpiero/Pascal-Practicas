@@ -114,7 +114,7 @@ begin
         buscar := 0;
 end;
 
-procedure listado(var archAlu: arAlu; var archIns: arIns; tabla: vw; vn: byte);
+procedure listadoMal(var archAlu: arAlu; var archIns: arIns; tabla: vw; vn: byte);
 var tempAlu: regAlu;
     tempIns: regIns;
     pos : byte;
@@ -137,6 +137,38 @@ begin
         end;
 end;
 
+// Se comparan las matriculas
+// si ALU < INS se avanza en ALU
+// si ALU = INS se chequea si se agrega al listado
+// si ALU > INS se avanza en INS
+procedure listado(var archAlu: arAlu; var archIns: arIns);
+var tempAlu: regAlu;
+    tempIns: regIns;
+begin
+    reset(archAlu);
+    reset(archIns);
+    read(archAlu, tempAlu);
+    read(archIns, tempIns);
+    writeln('===Listado de los que no cumplen===');
+    while (tempAlu.matri <> CENTINELA) and (tempIns.matri <> CENTINELA) do
+        begin
+        if tempAlu.matri < tempIns.matri then
+            read(archAlu, tempAlu)
+        else
+            if tempAlu.matri > tempIns.matri then
+                read(archIns, tempIns)
+            else
+                begin
+               if ( (tempIns.fis2 = 1) and ((tempAlu.mat < 4) or (tempAlu.fis1 < 4) )) or
+                ( (tempIns.qui2 = 1) and (tempAlu.qui1 < 4)) then
+                    writeln(tempAlu.matri:10);
+
+                read(archAlu, tempAlu);
+                read(archIns, tempIns);
+                end;
+        end;
+
+end;
 
 
 var
@@ -146,12 +178,16 @@ var
     vn: byte;
 begin
     assign(archAlu, 'ALUMNOS.DAT');
-    crearArAlu(archAlu, tabla, vn);
+    crearArAlu(archAlu, tabla, vn); // No requiere tabla por estar ordenado
     leerArAlu(archAlu); writeln();
     assign(archIns, 'INSCRIPTOS.DAT');
     crearArIns(archIns);
     leerArIns(archIns); writeln();
-    listado(archAlu, archIns, tabla, vn);
+    //listadoMal(archAlu, archIns, tabla, vn);
+    { Si estan ordenados no necesita tabla, se hace un enfrentamiento de archivos
+    donde la clave indica si se avanza sobre 1 archivo, otro o ambos}
+
+    listado(archAlu, archIns);
 
     close(archAlu);
     close(archIns);

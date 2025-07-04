@@ -9,9 +9,9 @@
         <Filename Value="alumnos.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="122"/>
-        <CursorPos X="57" Y="130"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="133"/>
+        <CursorPos X="18" Y="144"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,7 +19,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="6" Y="10"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
@@ -28,52 +28,12 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="16" Y="9"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Text"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="38" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="28" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="40" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="41" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="50" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="52" Column="56" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="64" Column="35" TopLine="57"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="50" Column="12" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="53" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="alumnos.lpr"/>
-        <Caret Line="61" TopLine="45"/>
-      </Position>
       <Position>
         <Filename Value="alumnos.lpr"/>
         <Caret Line="62" TopLine="46"/>
@@ -153,6 +113,46 @@
       <Position>
         <Filename Value="alumnos.lpr"/>
         <Caret Line="150" Column="34" TopLine="140"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="152" Column="53" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="151" Column="23" TopLine="141"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="155" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="158" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="161" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="153" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="155" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="158" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="161" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="alumnos.lpr"/>
+        <Caret Line="153" Column="72" TopLine="143"/>
       </Position>
     </JumpHistory>
     <RunParams>
