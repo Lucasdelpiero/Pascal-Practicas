@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="comisiones.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="136"/>
+        <CursorPos X="21" Y="148"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="VENTAS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="MES.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="4" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="DIA.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="4" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="135" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="137" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="138" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="141" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="130" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="134" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="135" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="137" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="138" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="141" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="130" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="143" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="122" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="145" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="158" TopLine="148"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="147" Column="29" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="118" Column="33" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="119" Column="21" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="152" Column="10" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="153" Column="20" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="152" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="160" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="153" Column="18" TopLine="144"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="154" Column="20" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="153" Column="19" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="155" Column="24" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="151" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="152" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="153" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="comisiones.lpr"/>
+        <Caret Line="149" Column="13" TopLine="136"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
